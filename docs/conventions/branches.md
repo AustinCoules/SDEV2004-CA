@@ -22,7 +22,25 @@ Suffix names should be all lowercase and use `-` as spaces.
 - `docs/report/ind-austin-coules` - This branch is where Austin will work on their individual reports.
 
 ## How to use branches in Git
-// TODO
+Follow this flow whenever you start a new piece of work:
+
+1. Pull the latest changes from the main branch.
+	- `git checkout main`
+	- `git pull`
+2. Create and switch to a new branch using the conventions above.
+	- `git checkout -b [prefix]/[suffix]`
+	- Example: `git checkout -b docs/branch-guidelines`
+3. Make your changes and commit regularly.
+	- `git add .`
+	- `git commit -m "your clear commit message"`
+4. Push your branch to GitHub.
+	- `git push -u origin [prefix]/[suffix]`
+5. Open a Pull Request from your branch into `main`.
+6. After merge, switch back to `main`, pull updates, and delete your local branch.
+	- `git checkout main`
+	- `git pull`
+	- `git branch -d [prefix]/[suffix]`
+
 
 ## Prefix Dictionary
 | Prefix   | Definition                                                                                                                 |
