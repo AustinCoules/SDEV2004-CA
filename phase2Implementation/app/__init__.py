@@ -1,10 +1,10 @@
-from flask import Flask, session
+from flask import Flask, request, session
 from flask_babel import Babel
 
 def get_locale():
     if 'language' in session:
         return session['language']
-    return request.accept_languages.best_match(['en', 'de', 'pl'])
+    return request.accept_languages.best_match(['en', 'de', 'pl']) or 'en' # Fallback
 
 app = Flask(__name__)
 
