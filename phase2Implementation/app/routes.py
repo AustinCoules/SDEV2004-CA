@@ -1,20 +1,25 @@
 from app import app
 from flask import render_template, session, redirect, request
 
+# Oscar
 @app.route('/')
 @app.route('/index')
 def index():
     return (render_template("index.html"))
-# TODO make index file and route for it, and make it the default page when the user visits the site
 
-# put other routes here
-#
-#
-#
-#
+# Austin
+@app.route('/checkout')
+def checkout():
+    return render_template("checkout.html")
+
+# Daniel
+@app.route('/restaurant')
+def restaurant():
+    return render_template("restaurant.html")
+
 @app.route('/setlang/<lang_code>')
 def set_language(lang_code):
-# If the language mataches one of the languages we are facilitating
+# If the language matches one of the languages we are facilitating
 # Change the value of the language variable in session to that
     if lang_code in ['en', 'de', 'pl']:
         session['language'] = lang_code
