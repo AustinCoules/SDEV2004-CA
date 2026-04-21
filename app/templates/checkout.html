@@ -2,11 +2,20 @@
 
 {% block title %}Checkout{% endblock %}
 
+{% block page_css %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/' + lang_code + '/checkout.css') }}">
+{% endblock %}
+
 {% block navigation %}
     {% set lang_code = session.get('language', 'en') %}
     {% include 'includes/' + lang_code + '/navbar.html' %}
 {% endblock %}
 
 {% block content %}
-<p>{{_('Hi')}}</p> <!-- Not sure why this isn't displaying yet -->
+<section class="checkout-page">
+    <div class="panel">
+        <h1>{{ _('Checkout') }}</h1>
+        <p>{{ _('Hi') }}</p>
+    </div>
+</section>
 {% endblock %}
