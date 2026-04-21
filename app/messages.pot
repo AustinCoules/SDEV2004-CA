@@ -1,0 +1,19 @@
+#: templates/checkout.html:11
+msgid "Hi"
+msgstr ""
+
+#: templates/includes/de/navbar.html:17 templates/includes/en/navbar.html:17
+#: templates/includes/pl/navbar.html:17
+msgid "English"
+msgstr ""
+
+#: templates/includes/de/navbar.html:18 templates/includes/en/navbar.html:18
+#: templates/includes/pl/navbar.html:18
+msgid "German"
+msgstr ""
+
+#: templates/includes/de/navbar.html:19 templates/includes/en/navbar.html:19
+#: templates/includes/pl/navbar.html:19
+msgid "Polish"
+msgstr ""
+
