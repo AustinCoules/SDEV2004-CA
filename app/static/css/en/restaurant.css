@@ -1,8 +1,8 @@
 /* Reset */
-html, body {
+html, .body {
     margin: 0;
     height: 100%;
-    font-family: Arial, sans-serif;
+    font-family: Arial, inter;
 }
 
 /* Header */
@@ -14,7 +14,11 @@ html, body {
     justify-content: center;
     position: relative;
 }
+.container{
+    display: flex;
+    position: relative;
 
+}
 .logo-box {
     position: absolute;
     left: 20px;
@@ -44,7 +48,11 @@ html, body {
 .sidebar {
     width: 220px;
     background-color: #6f97b7;
-    padding: 20px;
+    padding: 5px;
+    height: 1900px;
+    position: relative;
+    top: -25px;
+    left: -125px;
 }
 
 /* Sidebar items */
