@@ -6,6 +6,9 @@ from flask import render_template, session, redirect, request
 @app.route('/index')
 def index():
     return render_template("index.html")
+@app.route('/landing')
+def landing():
+    return render_template("landing.html")
 
 # Austin
 @app.route('/checkout')
