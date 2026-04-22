@@ -44,7 +44,7 @@ h1 {
     border-color: #2DD881;
 }
 
-/* Overrides for Bootstrap's weird horizontal list properties */
+/* Overrides for Bootstrap's weird horizontal list shaping */
 .progress-icons .list-group-horizontal > .list-group-item:first-child,
 .progress-icons .list-group-horizontal > .list-group-item:last-child,
 .progress-icons .list-group-horizontal > .list-group-item:first-child:not(:last-child),
@@ -52,4 +52,5 @@ h1 {
     border-radius: 50%;
 }
 
-
+.receipt {
+}
