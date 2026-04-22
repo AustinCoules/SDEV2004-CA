@@ -1,9 +1,12 @@
 {% extends "base.html" %}
+{% include 'includes/' + lang_code + '/navbar.html' %}
+{% block main %}
+{% endblock %}
 
 {% block title %}Landing{% endblock %}
 
 {% block page_css %}
-<link rel="stylesheet" href="{{ url_for('static', filename='css/' + lang_code + '/landing.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/' + lang_code + '/index.css') }}">
 {% endblock %}
 
 {% block navigation %}
