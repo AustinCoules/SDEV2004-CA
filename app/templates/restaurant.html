@@ -1,9 +1,20 @@
 {% extends "base.html" %}
+{% block title %}Restaurants{% endblock %}
+{% block page_css %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/' + lang_code + '/restaurant.css') }}">
+{% endblock %}
 {% block navigation %}
 {% include 'includes/' + lang_code + '/navbar.html' %}
 {% endblock %}
 {% block main %}
-
+     <div class='container'>
+                        <div class='sidebar'>
+                            <ul class="restaurants">
+                                <li class="restaurants-item">{{_('Mcdonalds')}}</li>
+                                <li class="restaurants-item">{{_('Burger King')}}</li>
+                                <li class="restaurants-item">{{_('Dominoes')}}</li>
+                            </ul>
+                        </div>
 <section class="page-section">
                     <h2 class="section-heading mb-0">
                         {% if lang_code=='pl' %}

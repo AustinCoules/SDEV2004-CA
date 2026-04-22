@@ -1,2 +1,16 @@
 body {
+    background-color: #6D9DC5;
+}
+
+.container {
+  width: 100%;
+  display: grid;
+  grid-template-areas: "sidebar main";
+  grid-template-columns: 200px auto;
+}
+
+.sidebar {
+  grid-area: sidebar;
+  height: 100vw;
+  background-color: lightgray;
 }
