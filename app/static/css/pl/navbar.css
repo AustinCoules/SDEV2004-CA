@@ -1,0 +1,36 @@
+.navbar {
+    --navbar-height: 60px;
+    background-color: #2D3142;
+    height: var(--navbar-height);
+}
+
+.navbar-brand {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.navbar-logo {
+    height: calc(var(--navbar-height) * 0.65);
+    width: auto;
+    object-fit: contain;
+    padding-bottom: 5px; /* Optical Alignment */
+}
+
+.nav-item {
+    font-family: "Inter";
+    padding-left: 10px;
+}
+
+.btn-primary {
+    color: #FFFFFF;
+    background-color: #2DD881;
+    border-color: #2DD881;
+}
+
+.btn-secondary {
+    color: #000000;
+    background-color: #FFFFFF;
+    border-color: #FFFFFF;
+}
