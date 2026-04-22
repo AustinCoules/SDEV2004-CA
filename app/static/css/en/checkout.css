@@ -1,2 +1,55 @@
 body {
+    background-color: #6D9DC5;
 }
+
+.checkout-page {
+    margin: 200px auto 0;
+    padding: 30px;
+    background-color: #FFFFFF;
+    font-family: "Inter";
+    border-radius: 30px;
+    width: 100%;
+    max-width: 500px;
+}
+
+h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: "Bakbak One";
+    font-size: 30px;
+    text-align: center;
+}
+
+.progress-icons .list-group-horizontal {
+    gap: 50px;
+    justify-content: center;
+}
+
+.progress-icons .list-group-horizontal .list-group-item {
+    width: 64px;
+    height: 64px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid #3E445A;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    line-height: 1;
+    font-size: 30px;
+}
+
+.progress-icons .list-group-horizontal .list-group-item:first-child {
+    border-color: #2DD881;
+}
+
+/* Overrides for Bootstrap's weird horizontal list properties */
+.progress-icons .list-group-horizontal > .list-group-item:first-child,
+.progress-icons .list-group-horizontal > .list-group-item:last-child,
+.progress-icons .list-group-horizontal > .list-group-item:first-child:not(:last-child),
+.progress-icons .list-group-horizontal > .list-group-item:last-child:not(:first-child) {
+    border-radius: 50%;
+}
+
+
