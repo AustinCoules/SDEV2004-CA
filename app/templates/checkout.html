@@ -4,6 +4,7 @@
 
 {% block page_css %}
 <link rel="stylesheet" href="{{ url_for('static', filename='css/' + lang_code + '/checkout.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/' + lang_code + '/progress.css') }}">
 {% endblock %}
 
 {% block navigation %}
@@ -16,14 +17,14 @@
     <div class="panel">
         <h1>{{_('Your order\'s in the kitchen!')}}</h1>
         <div class="progress-icons">
-            <!-- Placeholder Icons -->
+            <!-- Icons -->
             <ul class="list-group list-group-horizontal">
                 <li class="list-group-item"><img src="../static/assets/knife_and_fork.svg" alt="Knife and Fork"></li>
                 <li class="list-group-item"><img src="../static/assets/moped.svg" alt="Moped"></li>
                 <li class="list-group-item"><img src="../static/assets/tick.svg"></li>
             </ul>
-            <!-- Potential Bootstrap progress bar here -->
         </div>
+        {% include 'includes/' + lang_code + '/progress.html' %}
         <div class="receipt">
             <h2 class="restaurant-name fs-5 fw-semibold mb-3">{{_('Restaurant Name')}}</h2>
             <ul class="list-group list-group-flush border-top">
