@@ -1,70 +1,76 @@
 {% extends "base.html" %}
-
 {% block title %}Landing{% endblock %}
-
 {% block page_css %}
 <link rel="stylesheet" href="{{ url_for('static', filename='css/' + lang_code + '/landing.css') }}">
 {% endblock %}
-
 {% block navigation %}
-    {% set lang_code = session.get('language', 'en') %}
-    {% include 'includes/' + lang_code + '/navbar.html' %}
+ {% set lang_code = session.get('language', 'en') %}
+ {% include 'includes/' + lang_code + '/navbar.html' %}
 {% endblock %}
-
 {% block content %}
 <section class="landing-page">
-    <div class="panel">
-        <h1>{{_('Burger King Baggot St')}}</h1>
-            <img class="burger king burger" src="{{ url_for('static', filename='assets/burgerKingImg.jpg') }}" alt="..." />
+ <div class="panel">
+ <h1>{{ _('Burger King Baggot St') }}</h1>
+ <img class="burger king burger" src="{{ url_for('static', filename='assets/burgerKingImg.jpg') }}" alt="..." />
+ <div class="progress-icons">
+ <!-- Placeholder Icons -->
+ <ul class="list-group list-group-horizontal justify-content-between">
+ <li class="list-group-item">⭐ 4.4</li>
+ <li class="list-group-item">🛵 10-15 min</li>
+ <li class="list-group-item">€4-20</li>
+ </ul>
+ <!-- Potential Bootstrap progress bar here -->
+ </div>
+ <div class="receipt">
+ <h2 class="restaurant-name fs-5 fw-semibold mb-3">{{ _('Restaurant Name') }}</h2>
+ <ul class="list-group list-group-flush border-top">
 
-        <div class="progress-icons">
-            <!-- Placeholder Icons -->
-            <ul class="list-group list-group-horizontal justify-content-between">
-                <li class="list-group-item">⭐ 4.4</li>
-                <li class="list-group-item">🛵 10-15 min</li>
-                <li class="list-group-item">€4-20</li>
-            </ul>
-            <!-- Potential Bootstrap progress bar here -->
-        </div>
-        <div class="receipt">
-            <h2 class="restaurant-name fs-5 fw-semibold mb-3">{{_('Restaurant Name')}}</h2>
-            <ul class="list-group list-group-flush border-top">
-                <li class="list-group-item bg-transparent border-0 px-0 py-3 d-flex justify-content-between align-items-center">
-                    <span>{{_('Domino\'s Rathmines')}}</span>
-                        <img class="dominos" src="{{ url_for('static', filename='assets/dommy.webp') }}" alt="..." />
+ <!-- Domino's -->
+ <li class="list-group-item bg-transparent border-0 px-0 py-3 d-flex justify-content-between align-items-center">
+ <span>{{ _('Domino\'s Rathmines') }}</span>
+ <img class="dominos" src="{{ url_for('static', filename='assets/dommy.webp') }}" alt="..." />
+ <li class="list-group-item">⭐ 2.4</li>
+ <li class="list-group-item">🛵 15-25 min</li>
+ <li class="list-group-item">€14-30</li>
+ <span>{{ _('€8') }}</span>
+ </li>
 
-                        <li class="list-group-item">⭐ 2.4</li>
-                        <li class="list-group-item">🛵 15-25 min</li>
-                        <li class="list-group-item">€14-30</li>
-                    <span>{{_('€8')}}</span>
-                </li>
-                <li class="list-group-item bg-transparent border-0 px-0 py-3 d-flex justify-content-between align-items-center">
-                    <span>{{_('Chips')}}</span>
-                    <span>{{_('€4.50')}}</span>
-                </li>
-                <li class="list-group-item bg-transparent border-0 px-0 py-3 d-flex justify-content-between align-items-center">
-                    <span>{{_('Coca Cola (330ml)')}}</span>
-                    <span>{{_('€2.90')}}</span>
-                </li>
-            </ul>
-            <ul class="list-group list-group-flush border-top">
-                <li class="list-group-item bg-transparent border-0 px-0 py-3 d-flex justify-content-between align-items-center">
-                    <span>
-                        <span>🛵</span>
-                        <span>{{_('Delivery')}}</span>
-                    </span>
-                    <span>{{_('€3.50')}}</span>
-                </li>
-                <li class="list-group-item bg-transparent border-0 px-0 py-3 d-flex justify-content-between align-items-center">
-                    <span>
-                        <span>🥤</span>
-                        <span>{{_('Deposit Return')}}</span>
-                    </span>
-                    <span>{{_('€0.15')}}</span>
-                </li>
-            </ul>
+ <!-- McDonald's -->
+ <li class="list-group-item bg-transparent border-0 px-0 py-3 d-flex justify-content-between align-items-center">
+ <span>{{ _('McDonald\'s O\'Connell St') }}</span>
+ <img class="mcdonalds" src="{{ url_for('static', filename='assets/mcdonalds.png') }}" alt="..." />
+ <li class="list-group-item">⭐ 4.1</li>
+ <li class="list-group-item">🛵 10-20 min</li>
+ <li class="list-group-item">€6-18</li>
+ <span>{{ _('€7') }}</span>
+ </li>
 
-        </div>
-    </div>
+ <li class="list-group-item bg-transparent border-0 px-0 py-3 d-flex justify-content-between align-items-center">
+ <span>{{ _('Chips') }}</span>
+ <span>{{ _('€4.50') }}</span>
+ </li>
+ <li class="list-group-item bg-transparent border-0 px-0 py-3 d-flex justify-content-between align-items-center">
+ <span>{{ _('Coca Cola (330ml)') }}</span>
+ <span>{{ _('€2.90') }}</span>
+ </li>
+ </ul>
+ <ul class="list-group list-group-flush border-top">
+ <li class="list-group-item bg-transparent border-0 px-0 py-3 d-flex justify-content-between align-items-center">
+ <span>
+ <span>🛵</span>
+ <span>{{ _('Delivery') }}</span>
+ </span>
+ <span>{{ _('€3.50') }}</span>
+ </li>
+ <li class="list-group-item bg-transparent border-0 px-0 py-3 d-flex justify-content-between align-items-center">
+ <span>
+ <span>🥤</span>
+ <span>{{ _('Deposit Return') }}</span>
+ </span>
+ <span>{{ _('€0.15') }}</span>
+ </li>
+ </ul>
+ </div>
+ </div>
 </section>
 {% endblock %}
