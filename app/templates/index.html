@@ -20,11 +20,18 @@ Landing
 <section class="landing-page">
   <div class="panel">
 
+        <form action="{{ url_for('restaurant') }}" method="get">
+          <button type="submit" class="btn btn-primary">
+            View Restaurant
+          </button>
+        </form>
+
+
     <h1>{{ _('Burger King Baggot St') }}</h1>
 
     <img
       class="restaurant-image"
-      src="{{ url_for('static', filename='assets/burgerKingImg.jpg') }}"
+      src="{{ url_for('static', filename='assets/' + lang_code + '/burgerKingImg.jpg') }}"
       alt="Burger King"
     >
 
@@ -50,7 +57,7 @@ Landing
             <span>{{ _('Domino\'s Rathmines') }}</span>
             <img
               class="restaurant-logo"
-              src="{{ url_for('static', filename='assets/dommy.webp') }}"
+              src="{{ url_for('static', filename='assets/' + lang_code +'/dommy.webp') }}"
               alt="Domino's"
             >
           </div>
@@ -68,7 +75,7 @@ Landing
             <span>{{ _('McDonald\'s O\'Connell St') }}</span>
             <img
               class="restaurant-logo"
-              src="{{ url_for('static', filename='assets/mcdonalds.jpg') }}"
+              src="{{ url_for('static', filename='assets/' + lang_code +'/mcdonalds.jpg') }}"
               alt="McDonald's"
             >
           </div>
@@ -81,31 +88,6 @@ Landing
         </li>
       </ul>
 
-      <!-- Order items -->
-      <ul class="list-group list-group-flush border-top">
-        <li class="list-group-item bg-transparent border-0 py-3 d-flex justify-content-between">
-          <span>{{ _('Chips') }}</span>
-          <span>€4.50</span>
-        </li>
-
-        <li class="list-group-item bg-transparent border-0 py-3 d-flex justify-content-between">
-          <span>{{ _('Coca Cola (330ml)') }}</span>
-          <span>€2.90</span>
-        </li>
-      </ul>
-
-      <!-- Fees -->
-      <ul class="list-group list-group-flush border-top">
-        <li class="list-group-item bg-transparent border-0 py-3 d-flex justify-content-between">
-          <span>🛵 {{ _('Delivery') }}</span>
-          <span>€3.50</span>
-        </li>
-
-        <li class="list-group-item bg-transparent border-0 py-3 d-flex justify-content-between">
-          <span>🥤 {{ _('Deposit Return') }}</span>
-          <span>€0.15</span>
-        </li>
-      </ul>
 
     </div>
   </div>

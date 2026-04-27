@@ -4,6 +4,7 @@
     height: var(--navbar-height);
     position: sticky;
     top: 0;
+    z-index: 1030;
 }
 
 .navbar-brand {
@@ -35,4 +36,9 @@
     color: #000000;
     background-color: #FFFFFF;
     border-color: #FFFFFF;
+}
+
+.dropdown-menu {
+    background-color: #FFFFFF;
+    z-index: 1040;
 }

@@ -35,6 +35,17 @@ msgstr "Niemiecki"
 
 #: templates/includes/de/navbar.html:19 templates/includes/en/navbar.html:19
 #: templates/includes/pl/navbar.html:19
+
+
+#: index.html
 msgid "Polish"
 msgstr "Polski"
 
+msgid "Burger King Baggot St"                                                   
+msgstr "Burger King Kraków Galeria Krakowska "                                             
+
+msgid "Domino's Rathmines"                                                      
+msgstr "Mirror Bistro - brunch, pierogi & love"                                   
+
+msgid "McDonald's O'Connell St"                                                 
+msgstr "Odwiedź restaurację McDonald's w Kraków"                           
