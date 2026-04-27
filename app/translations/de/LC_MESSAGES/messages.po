@@ -39,7 +39,7 @@ msgstr "Polnisch"
 
 
 msgid "Burger King Baggot St"
-msgstr "Burger King Alexanderplatz"
+msgstr "Schnitzelei Mitte Berlin"
 
 
 msgid "Domino's Rathmines"
