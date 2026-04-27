@@ -1,6 +1,8 @@
 <!doctype html>
 <html>
   {% set lang_code = session["language"] %}
+  {% set a_open = '<a href="#">'|safe %}
+  {% set a_close = '</a>'|safe %}
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
