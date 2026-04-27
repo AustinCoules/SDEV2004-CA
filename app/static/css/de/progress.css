@@ -1,0 +1,12 @@
+.progress {
+    margin-top: 15px;
+}
+
+.progress-bar {
+    background-color: #2dd881;
+}
+
+.eta {
+    margin-top: 10px;
+    text-align: center;
+}

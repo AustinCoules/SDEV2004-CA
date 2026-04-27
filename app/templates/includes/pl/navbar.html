@@ -1,0 +1,38 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <!-- Branding -->
+        <a class="navbar-brand" href="">
+            <img class="navbar-logo" src="../../../static/assets/logo_light.svg" alt="Chow Now Logo">
+            Chow Now
+        </a>
+        <ul class="navbar-nav d-flex">
+            <!-- Dummy Menu Items -->
+            <li class="nav-item">
+                <a class="nav-link" href="#">{{_('Become a Courier')}}</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">{{_('Contact Us')}}</a>
+            </li>
+
+            <!-- Language Dropdown -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Language
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item" href="{{ url_for('set_language', lang_code='en') }}">{{_('English')}}</a></li>
+                    <li><a class="dropdown-item" href="{{ url_for('set_language', lang_code='de') }}">{{_('German')}}</a></li>
+                    <li><a class="dropdown-item" href="{{ url_for('set_language', lang_code='pl') }}">{{_('Polish')}}</a></li>
+                </ul>
+            </li>
+
+            <!-- Dummy Account Buttons -->
+            <li class="nav-item">
+                <button type="button" class="btn btn-secondary">{{_('Sign In')}}</button>
+            </li>
+            <li class="nav-item">
+                <button type="button" class="btn btn-primary">{{_('Register')}}</button>
+            </li>
+        </ul>
+    </div>
+</nav>

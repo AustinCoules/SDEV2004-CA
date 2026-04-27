@@ -1,0 +1,76 @@
+{% extends "base.html" %}
+{% block title %}Restaurants{% endblock %}
+{% block page_css %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/' + lang_code + '/restaurant.css') }}">
+{% endblock %}
+{% block navigation %}
+{% include 'includes/' + lang_code + '/navbar.html' %}
+{% endblock %}
+{% block content %}
+<div class='container'>
+    <section class="page-section">
+        <div class='sidebar'>
+            <ul class="restaurants">
+                <li class="restaurants-item">{{_('Mcdonalds')}}</li>
+                <li class="restaurants-item">{{_('Burger King')}}</li>
+                <li class="restaurants-item">{{_('Dominoes')}}</li>
+            </ul>
+        </div>
+        <h2 class="section-heading mb-0">
+            {% if lang_code=='pl' %}
+            <span class="section-heading-lower">{{_('Main Brands')}}</span>
+            {% elif lang_code=='de' %}
+            <span class="section-heading-lower">{{_('German Specialties')}}</span>
+            {% else %}
+            <span class="section-heading-upper">Restaurants</span>
+            {% endif %}
+        </h2>
+        <img class="restaurant-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0"
+             src="{{ url_for('static', filename='assets/img/' + lang_code + '/logo_coke.svg') }} " alt="..."/>
+        <div class="restaurant-item-description d-flex me-auto">
+            <div class="bg-faded p-5 rounded"><p class="mb-0">Discover a selection of popular dining options tailored to
+                your preferences.</p></div>
+        </div>
+    </section>
+    <section class="page-section">
+        <div class="container">
+            <div class="restaurant-item">
+                <div class="restaurant-item-title d-flex">
+                    <div class="bg-faded p-5 d-flex me-auto rounded">
+                        <h2 class="section-heading mb-0">
+                            <span class="section-heading-upper">Explore restaurants in your area</span>
+                            <span class="section-heading-lower">Browse current deals and promotions</span>
+                        </h2>
+                    </div>
+                </div>
+                <img class="restaurant-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0"
+                     src="{{ url_for('static', filename='assets/img/') }}" alt="..."/>
+                <div class="restaurant-item-description d-flex ms-auto">
+                    <div class="bg-faded p-5 rounded"><p class="mb-0">Find a variety of dining options with exclusive
+                        offers available near you.</p></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="page-section">
+        <div class="container">
+            <div class="restaurant-promos">
+                <div class="restaurant-promos-title d-flex">
+                    <div class="bg-faded p-5 d-flex ms-auto rounded">
+                        <h2 class="section-heading mb-0">
+                            <span class="section-heading-upper">Available coupons</span>
+                            <span class="section-heading-lower">Recommended selections for you</span>
+                        </h2>
+                    </div>
+                </div>
+                <img class="promos-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0"
+                     src="{{ url_for('static', filename='assets/img/promos3.jpg') }}" alt="..."/>
+                <div class="promos-item-description d-flex me-auto">
+                    <div class="bg-faded p-5 rounded"><p class="mb-0">Take advantage of curated promotions and special
+                        offers designed to suit your tastes.</p></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    {% endblock %}

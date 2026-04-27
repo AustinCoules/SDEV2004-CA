@@ -8,10 +8,8 @@ def get_locale():
 
 app = Flask(__name__)
 
-app.secret_key='asecretkey' # TODO: change this to a secure key in production
+app.secret_key='asecretkey'
 
-babel = Babel(app)
-
-babel.init_app(app, locale_selector=get_locale)
+babel = Babel(app, locale_selector=get_locale)
 
 from app import routes

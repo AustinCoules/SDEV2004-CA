@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+  {% set lang_code = session["language"] %}
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% block title %}SDEV2004{% endblock %}</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bakbak+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+    <!-- Base CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}">
+
+    <!-- Navbar-only styles -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/' + lang_code + '/navbar.css') }}">
+
+    <!-- Per Page CSS -->
+    {% block page_css %}{% endblock %}
+  </head>
+  <body>
+    <!-- Navbar -->
+    {% block navigation %}{% endblock %}
+
+    <!-- Per Page Content -->
+    <main class="container py-4">
+      {% block content %}{% endblock %}
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+  </body>
+</html>

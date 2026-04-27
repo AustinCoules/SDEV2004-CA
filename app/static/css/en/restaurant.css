@@ -1,0 +1,100 @@
+/* Reset */
+html, .body {
+    margin: 0;
+    height: 100%;
+    font-family: Arial, inter;
+}
+
+/* Header */
+.top-header {
+    background-color: #36c37c;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.container{
+    display: flex;
+    position: relative;
+
+}
+.logo-box {
+    position: absolute;
+    left: 20px;
+    width: 80px;
+    height: 50px;
+    background-color: #cfcfcf;
+}
+
+.top-header h1 {
+    color: #4a6f5d;
+    font-size: 24px;
+}
+
+/* Divider */
+.divider {
+    height: 20px;
+    background-color: #2f3542;
+}
+
+/* Layout */
+.main-layout {
+    display: flex;
+    height: calc(100vh - 120px);
+}
+
+/* Sidebar */
+.sidebar {
+    width: 220px;
+    background-color: #6f97b7;
+    padding: 5px;
+    height: 1900px;
+    position: relative;
+    top: -25px;
+    left: -125px;
+}
+
+/* Sidebar items */
+.restaurants {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.restaurants-item {
+    background-color: #e74c3c;
+    height: 20px;
+    margin-bottom: 15px;
+}
+
+/* Content */
+.content {
+    flex: 1;
+    background-color: #dcdcdc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+}
+
+/* Big center box */
+.big-box {
+    width: 300px;
+    height: 220px;
+    background-color: #bfbfbf;
+    margin-bottom: 40px;
+}
+
+/* Small boxes row */
+.small-box-row {
+    display: flex;
+    gap: 30px;
+}
+
+/* Small boxes */
+.small-box {
+    width: 150px;
+    height: 100px;
+    background-color: #bfbfbf;
+}

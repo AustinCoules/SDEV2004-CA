@@ -1,0 +1,32 @@
+.list-group-horizontal {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.list-group-item {
+    border: 0;
+    position: relative;
+}
+
+/* Lazy Man's Text Alignment */
+.cooking {
+    right: 15px;
+    color: #2DD881;
+    font-weight: bold;
+}
+
+.delivering {
+    right: 10px;
+    color: #2D3142;
+}
+
+.done {
+    left: 5px;
+    color: #2D3142;
+}
+
+.eta {
+    margin-top: 10px;
+    text-align: center;
+}
