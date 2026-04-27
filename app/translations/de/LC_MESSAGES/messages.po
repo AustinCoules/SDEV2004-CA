@@ -37,3 +37,14 @@ msgstr "Deutsch"
 msgid "Polish"
 msgstr "Polnisch"
 
+
+msgid "Burger King Baggot St"
+msgstr "Burger King Alexanderplatz"
+
+
+msgid "Domino's Rathmines"
+msgstr "Domino's Pizza Berlin Kreuzberg Nord"
+
+
+msgid "McDonald's O'Connell St"
+msgstr "MCDONALD'S, Berlin - Alexanderplatz 1, Mitte"
