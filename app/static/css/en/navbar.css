@@ -2,6 +2,8 @@
     --navbar-height: 60px;
     background-color: #2D3142;
     height: var(--navbar-height);
+    position: sticky;
+    top: 0;
 }
 
 .navbar-brand {
