@@ -45,7 +45,7 @@ msgid "Burger King Baggot St"
 msgstr "Burger King Kraków Galeria Krakowska "                                             
 
 msgid "Domino's Rathmines"                                                      
-msgstr "DOMINO'S PIZZA, Krakow - Rynek Główny 22, Stare Miasto"                                   
+msgstr "Mirror Bistro - brunch, pierogi & love"                                   
 
 msgid "McDonald's O'Connell St"                                                 
 msgstr "Odwiedź restaurację McDonald's w Kraków"                           
