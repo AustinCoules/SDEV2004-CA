@@ -20,6 +20,13 @@ Landing
 <section class="landing-page">
   <div class="panel">
 
+        <form action="{{ url_for('restaurant') }}" method="get">
+          <button type="submit" class="btn btn-primary">
+            View Restaurant
+          </button>
+        </form>
+
+
     <h1>{{ _('Burger King Baggot St') }}</h1>
 
     <img
