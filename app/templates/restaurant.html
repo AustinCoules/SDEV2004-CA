@@ -3,175 +3,219 @@
 
 {% block page_css %}
 
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/' + lang_code + '/restaurant.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/' + lang_code + '/restaurant.css') }}">
 {% endblock %}
 
 {% block navigation %}
-    {% include 'includes/' + lang_code + '/navbar.html' %}
+{% include 'includes/' + lang_code + '/navbar.html' %}
 {% endblock %}
 
 {% block content %}
 
-    <div class="container">
+<div class="container">
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+        <div class="restaurants">
+            <div class="restaurants-item">{{ _('Mcdonalds') }}</div>
+            <div class="restaurants-item">{{ _('Burger King') }}</div>
+            <div class="restaurants-item">{{ _('Dominoes') }}</div>
+        </div>
+    </aside>
 
-        ```
-        <!-- SIDEBAR -->
-        <aside class="sidebar">
-            <div class="restaurants">
-                <div class="restaurants-item">{{ _('Mcdonalds') }}</div>
-                <div class="restaurants-item">{{ _('Burger King') }}</div>
-                <div class="restaurants-item">{{ _('Dominoes') }}</div>
-            </div>
-        </aside>
+    <!-- MAIN CONTENT -->
+    <main class="content">
 
-        <!-- MAIN CONTENT -->
-        <main class="content">
+        <!-- HEADER / INTRO -->
+        <section class="intro">
+            <h2 class="section-heading mb-0">
+                {% if lang_code=='pl' %}
+                <span class="section-heading-lower">{{ _('Menu') }}</span>
+                {% elif lang_code=='de' %}
+                <span class="section-heading-lower">{{ _('Menu') }}</span>
+                {% else %}
+                <span class="section-heading-upper">{{ _('Menu') }}</span>
+                {% endif %}
+            </h2>
+            <p>Discover a selection of popular dining options tailored to your preferences.</p>
+        </section>
 
-            <!-- HEADER / INTRO -->
-            <section class="intro">
-                <h2 class="section-heading mb-0">
+        <section class="dominos-menu">
+            <h2>{{ _('Dominos Menu') }}</h2>
+
+            <div class="menu-grid">
+
+                <div class="menu-card">
+                    <img src="{{ url_for('static', filename='assets/' + lang_code + '/menuitem/item1.jpg') }}"
+                         alt="item1">
+                    <div class="menu-title">({{ _('Margherita Pizza') }})</div>
+                    <div class="menu-price">€8.99</div>
+                </div>
+
+                <div class="menu-card">
+                    <img src="{{ url_for('static', filename='assets/' + lang_code + '/menuitem/item2.jpg') }}"
+                         alt="item2">
+                    <div class="menu-title">({{ _('Pepperoni Pizza') }})</div>
+                    <div class="menu-price">€9.99</div>
+                </div>
+
+                <div class="menu-card">
+                    <img src="{{ url_for('static', filename='assets/' + lang_code + '/menuitem/item3.jpg') }}"
+                         alt="item3">
+                    <div class="menu-title">({{ _('BBQ Chicken Pizza') }})</div>
+                    <div class="menu-price">€10.99</div>
+                </div>
+
+                <div class="menu-card">
+                    <img src="{{ url_for('static', filename='assets/' + lang_code + '/menuitem/item4.jpg') }}"
+                         alt="item4">
+                    <div class="menu-title">({{ _('Veggie Supreme') }})</div>
+                    <div class="menu-price">€9.49</div>
+                </div>
+
+                <div class="menu-card">
+                    <img src="{{ url_for('static', filename='assets/' + lang_code + '/menuitem/item5.jpg') }}"
+                         alt="item5">
+                    <div class="menu-title">({{ _('Hawaiian Pizza') }})</div>
+                    <div class="menu-price">€10.49</div>
+                </div>
+
+                <div class="menu-card">
+                    <img src="{{ url_for('static', filename='assets/' + lang_code + '/menuitem/item6.jpg') }}"
+                         alt="item6">
+                    <div class="menu-title">({{ _('Meat Lovers Pizza') }})</div>
+                    <div class="menu-price">€11.99</div>
+                </div>
+
+                <div class="menu-card">
+                    <img src="{{ url_for('static', filename='assets/' + lang_code + '/menuitem/item7.jpg') }}"
+                         alt="item7">
                     {% if lang_code=='pl' %}
-                        <span class="section-heading-lower">{{ _('Menu') }}</span>
+                    <div class="menu-title">({{ _('Loaded Fries') }})</div>
+                    <div class="menu-price">€4.99</div>
                     {% elif lang_code=='de' %}
-                        <span class="section-heading-lower">{{ _('Menu') }}</span>
+                    <div class="menu-title">({{ _('Garlic Bread') }})</div>
+                    <div class="menu-price">€4.99</div>
                     {% else %}
-                        <span class="section-heading-upper">Menu</span>
+                    <div class="menu-title">Garlic Bread</div>
+                    <div class="menu-price">€4.99</div>
                     {% endif %}
-                </h2>
-                <p>Discover a selection of popular dining options tailored to your preferences.</p>
-            </section>
-
-            <section class="dominos-menu">
-                <h2>{{ _('Dominos Menu') }}</h2>
-
-                <div class="menu-grid">
-
-                    <div class="menu-card">
-                        <img src="{{ url_for('static', filename='assets/' + lang_code + '/menuitem/item1.jpg') }}"
-                             alt="item1">
-                        <div class="menu-title">({{ _('Margherita Pizza') }})</div>
-                        <div class="menu-price">€8.99</div>
-                    </div>
-
-                    <div class="menu-card">
-                        <img src="{{ url_for('static', filename='assets/' + lang_code + '/menuitem/item2.jpg') }}"
-                             alt="item2">
-                        <div class="menu-title">({{ _('Pepperoni Pizza') }})</div>
-                        <div class="menu-price">€9.99</div>
-                    </div>
-
-                    <div class="menu-card">
-                        <img src="{{ url_for('static', filename='assets/' + lang_code + '/menuitem/item3.jpg') }}"
-                             alt="item3">
-                        <div class="menu-title">({{ _('BBQ Chicken Pizza') }})</div>
-                        <div class="menu-price">€10.99</div>
-                    </div>
-
-                    <div class="menu-card">
-                        <img src="{{ url_for('static', filename='assets/' + lang_code + '/menuitem/item4.jpg') }}"
-                             alt="item4">
-                        <div class="menu-title">({{ _('Veggie Supreme') }})</div>
-                        <div class="menu-price">€9.49</div>
-                    </div>
-
-                    <div class="menu-card">
-                        <img src="{{ url_for('static', filename='assets/' + lang_code + '/menuitem/item5.jpg') }}"
-                             alt="item5">
-                        <div class="menu-title">({{ _('Hawaiian Pizza') }})</div>
-                        <div class="menu-price">€10.49</div>
-                    </div>
-
-                    <div class="menu-card">
-                        <img src="{{ url_for('static', filename='assets/' + lang_code + '/menuitem/item6.jpg') }}"
-                             alt="item6">
-                        <div class="menu-title">({{ _('Meat Lovers Pizza') }})</div>
-                        <div class="menu-price">€11.99</div>
-                    </div>
-
-                    <div class="menu-card">
-                        <img src="{{ url_for('static', filename='assets/' + lang_code + '/menuitem/item7.jpg') }}"
-                             alt="item7">
-                        <div class="menu-title">({{ _('Garlic Bread') }})</div>
-                        <div class="menu-price">€4.99</div>
-                    </div>
-
-                    <div class="menu-card">
-                        <img src="{{ url_for('static', filename='assets/' + lang_code + '/menuitem/item8.jpg') }}"
-                             alt="item8">
-                        <div class="menu-title">({{ _('Chicken Wings') }})</div>
-                        <div class="menu-price">€7.99</div>
-                    </div>
-
-                    <div class="menu-card">
-                        <img src="{{ url_for('static', filename='assets/' + lang_code + '/menuitem/item9.jpg') }}"
-                             alt="item9">
-                        <div class="menu-title">({{ _('Stuffed Cheesy Bread') }})</div>
-                        <div class="menu-price">€6.49</div>
-                    </div>
-
-                    <div class="menu-card">
-                        <img src="{{ url_for('static', filename='assets/' + lang_code + '/menuitem/item10.jpg') }}"
-                             alt="item10">
-                        <div class="menu-title">({{ _('Chocolate Lava Cake') }})</div>
-                        <div class="menu-price">€5.49</div>
-                    </div>
-
-                    <div class="menu-card">
-                        <img src="{{ url_for('static', filename='assets/' + lang_code + '/menuitem/item11.jpg') }}"
-                             alt="item11">
-                        <div class="menu-title">({{ _('Coke') }})</div>
-                        <div class="menu-price">€2.49</div>
-                    </div>
-
-                    <div class="menu-card">
-                        <img src="{{ url_for('static', filename='assets/' + lang_code + '/menuitem/item12.jpg') }}"
-                             alt="item12">
-                        <div class="menu-title">({{ _('Sprite') }})</div>
-                        <div class="menu-price">€2.49</div>
-                    </div>
-
-                </div>
-            </section>
-            <!-- BIG FEATURE BOX -->
-            <section class="featured">
-
-                <div class="big-box">
-                    <img src="{{ url_for('static', filename='assets/' + lang_code + '/dominos_deal.jpg') }}"
-                         alt="food"/>
-                </div>
-            </section>
-
-            <!-- SMALL BOXES / PROMOS -->
-            <section class="promos">
-                <h2 class="section-heading mb-0">
-                    <span class="section-heading-lower">Recommended deals</span>
-                </h2>
-
-                <div class="small-box-row">
-                    <div class="small-box">
-                        <img src="{{ url_for('static', filename='assets/' + lang_code + '/promo1.jpg') }}"
-                             alt="promo"/>
-                    </div>
-                    <div class="small-box">
-                        <img src="{{ url_for('static', filename='assets/' + lang_code + '/promo2.jpg') }}"
-                             alt="promo"/>
-                    </div>
-                    <div class="small-box">
-                        <img src="{{ url_for('static', filename='assets/' + lang_code + '/promo3.jpg') }}"
-                             alt="promo"/>
-                    </div>
                 </div>
 
-                <p>
-                    Take advantage of curated promotions and special offers designed to suit your tastes.
-                </p>
-            </section>
-            <a href="{{ url_for('checkout') }}" class="checkout-btn">
-                {{ _('Go to Checkout') }}
-            </a>
-        </main>
-        ```
+                <div class="menu-card">
+                    <img src="{{ url_for('static', filename='assets/' + lang_code + '/menuitem/item8.jpg') }}"
+                         alt="item8">
+                    {% if lang_code=='pl' %}
+                    <div class="menu-title">({{ _('Cheesy Garlic Bread') }})</div>
+                    <div class="menu-price">({{ _('€4.99') }})</div>
+                    {% elif lang_code=='de' %}
+                    <div class="menu-title">({{ _('Garlic Bread') }})</div>
+                    <div class="menu-price">€4.99</div>
+                    {% else %}
+                    <div class="menu-title">Chicken Wings</div>
+                    <div class="menu-price">€7.99</div>
+                    {% endif %}
+                </div>
 
-    </div>
+                <div class="menu-card">
+                    <img src="{{ url_for('static', filename='assets/' + lang_code + '/menuitem/item9.jpg') }}"
+                         alt="item9">
+                    {% if lang_code=='pl' %}
+                    <div class="menu-title">({{ _('Cheesy Fries') }})</div>
+                    <div class="menu-price">({{ _('€6.49') }})</div>
+                    {% elif lang_code=='de' %}
+                    <div class="menu-title">({{ _('Garlic Bread') }})</div>
+                    <div class="menu-price">€4.99</div>
+                    {% else %}
+                    <div class="menu-title">Stuffed Cheesy Bread</div>
+                    <div class="menu-price">€6.49</div>
+                    {% endif %}
+                </div>
+
+                <div class="menu-card">
+                    <img src="{{ url_for('static', filename='assets/' + lang_code + '/menuitem/item10.jpg') }}"
+                         alt="item10">
+                    {% if lang_code=='pl' %}
+                    <div class="menu-title">({{ _('Cheesy Garlic Bread with Pepperoni') }})</div>
+                    <div class="menu-price">({{ _('€5.49') }})</div>
+                    {% elif lang_code=='de' %}
+                    <div class="menu-title">({{ _('Garlic Bread') }})</div>
+                    <div class="menu-price">€4.99</div>
+                    {% else %}
+                    <div class="menu-title">Chocolate Lava Cake</div>
+                    <div class="menu-price">€5.49</div>
+                    {% endif %}
+                </div>
+
+                <div class="menu-card">
+                    <img src="{{ url_for('static', filename='assets/' + lang_code + '/menuitem/item11.jpg') }}"
+                         alt="item11">
+                    {% if lang_code=='pl' %}
+                    <div class="menu-title">({{ _('Pepsi Lemon Zero') }})</div>
+                    <div class="menu-price">({{ _('€2.29') }})</div>
+                    {% elif lang_code=='de' %}
+                    <div class="menu-title">({{ _('Garlic Bread') }})</div>
+                    <div class="menu-price">€4.99</div>
+                    {% else %}
+                    <div class="menu-title">Coke</div>
+                    <div class="menu-price">€2.49</div>
+                    {% endif %}
+                </div>
+
+                <div class="menu-card">
+                    <img src="{{ url_for('static', filename='assets/' + lang_code + '/menuitem/item12.jpg') }}"
+                         alt="item12">
+                    {% if lang_code=='pl' %}
+                    <div class="menu-title">({{ _('Strawberry Lemonade') }})</div>
+                    <div class="menu-price">({{ _('€1.49') }})</div>
+                    {% elif lang_code=='de' %}
+                    <div class="menu-title">({{ _('Garlic Bread') }})</div>
+                    <div class="menu-price">€4.99</div>
+                    {% else %}
+                    <div class="menu-title">Sprite</div>
+                    <div class="menu-price">€2.49</div>
+                    {% endif %}
+                </div>
+
+            </div>
+        </section>
+        <!-- BIG FEATURE BOX -->
+        <section class="featured">
+
+            <div class="big-box">
+                <img src="{{ url_for('static', filename='assets/' + lang_code + '/dominos_deal.jpg') }}"
+                     alt="food"/>
+            </div>
+        </section>
+
+        <!-- SMALL BOXES / PROMOS -->
+        <section class="promos">
+            <h2 class="section-heading mb-0">
+                <span class="section-heading-lower">Recommended deals</span>
+            </h2>
+
+            <div class="small-box-row">
+                <div class="small-box">
+                    <img src="{{ url_for('static', filename='assets/' + lang_code + '/promo1.jpg') }}"
+                         alt="promo"/>
+                </div>
+                <div class="small-box">
+                    <img src="{{ url_for('static', filename='assets/' + lang_code + '/promo2.jpg') }}"
+                         alt="promo"/>
+                </div>
+                <div class="small-box">
+                    <img src="{{ url_for('static', filename='assets/' + lang_code + '/promo3.jpg') }}"
+                         alt="promo"/>
+                </div>
+            </div>
+
+            <p>
+                Take advantage of curated promotions and special offers designed to suit your tastes.
+            </p>
+        </section>
+        <a href="{{ url_for('checkout') }}" class="checkout-btn">
+            {{ _('Go to Checkout') }}
+        </a>
+    </main>
+</div>
 
 {% endblock %}
