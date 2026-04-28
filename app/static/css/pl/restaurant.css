@@ -1,4 +1,8 @@
-/* === FIX LEFT GAP + FULL WIDTH LAYOUT === */
+/*
+Polish restaurant css
+Daniel Courage
+c23491584
+*/
 html, body {
     margin: 0;
     padding: 0;
@@ -12,13 +16,12 @@ html, body {
     padding: 0;
 }
 
-/* === SIDEBAR: hug left edge === */
+/* SIDEBAR */
 .sidebar {
     width: 220px;
     background-color: #6f97b7;
     padding: 20px 10px;
 
-    /* remove old hacks */
     position: static !important;
     left: 0 !important;
     top: 0 !important;
@@ -50,7 +53,7 @@ html, body {
     text-align: center;
 }
 
-/* === BIG IMAGE === */
+/* BIG IMAGE */
 .big-box img,
 .page-section img {
     display: block;
