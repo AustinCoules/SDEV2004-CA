@@ -20,53 +20,53 @@ msgstr ""
 
 #: templates/checkout.html:19
 msgid "Your order's in the kitchen!"
-msgstr ""
+msgstr "Ihre Bestellung steht in der Küche!"
 
 #: templates/checkout.html:30 templates/index.html:54
 msgid "Domino's Rathmines"
-msgstr "Domino's"
+msgstr "Domino's Pizza Kreuzberg Nord"
 
 #: templates/checkout.html:33 templates/restaurant.html:84
 msgid "Pepperoni Pizza"
-msgstr ""
+msgstr "Peperoni-Pizza"
 
 #: templates/checkout.html:34 templates/restaurant.html:85
 msgid "€9.99"
-msgstr ""
+msgstr "€9.99"
 
 #: templates/checkout.html:37 templates/restaurant.html:149
 msgid "Stuffed Cheesy Bread"
-msgstr ""
+msgstr "Gefülltes Käsebrot"
 
 #: templates/checkout.html:38 templates/restaurant.html:119
 #: templates/restaurant.html:144 templates/restaurant.html:150
 msgid "€6.49"
-msgstr ""
+msgstr "€6.49"
 
 #: templates/checkout.html:41 templates/restaurant.html:179
 msgid "Coke"
-msgstr ""
+msgstr "Cola"
 
 #: templates/checkout.html:42 templates/restaurant.html:180
 #: templates/restaurant.html:195
 msgid "€2.49"
-msgstr ""
+msgstr "€2.49"
 
 #: templates/checkout.html:49
 msgid "Delivery"
-msgstr ""
+msgstr "Versandkosten"
 
 #: templates/checkout.html:51
 msgid "€3.50"
-msgstr ""
+msgstr "€3.50"
 
 #: templates/checkout.html:56
 msgid "Deposit Return"
-msgstr ""
+msgstr "Pfand"
 
 #: templates/checkout.html:58
 msgid "€0.15"
-msgstr ""
+msgstr "€0.15"
 
 #: templates/index.html:25
 msgid "View Restaurant"
@@ -310,29 +310,32 @@ msgstr ""
 #: templates/includes/de/help.html:3 templates/includes/en/help.html:3
 #: templates/includes/pl/help.html:3
 msgid "Need help with your order?"
-msgstr ""
+msgstr "Brauchen Sie Hilfe bei Ihrer Bestellung?"
 
 #: templates/includes/de/help.html:10 templates/includes/en/help.html:10
 msgid "I want to change my order"
-msgstr ""
+msgstr "Ich möchte meine Bestellung ändern"
 
 #: templates/includes/de/help.html:14 templates/includes/en/help.html:14
 #, python-format
 msgid ""
 "You can edit your order within the first 3 minutes of ordering "
 "%(open)shere%(close)s. It can take up to 3 days to reprocess the payment."
-msgstr ""
+msgstr "Sie können Ihre Bestellung %(open)shier%(close)s innerhalb der ersten"
+"3 Minuten nach der Bestellung bearbeiten. Die erneute Bearbeitung der Zahlung"
+"kann bis zu 3 Tage dauern."
 
 #: templates/includes/de/help.html:20 templates/includes/en/help.html:20
 msgid "My order did not arrive"
-msgstr ""
+msgstr "Meine Bestellung ist nicht angekommen"
 
 #: templates/includes/de/help.html:24 templates/includes/en/help.html:24
 #, python-format
 msgid ""
 "Use our %(open)sLive Chat%(close)s to discuss the matter with our "
 "support. An investigation may take a few days."
-msgstr ""
+msgstr "Nutzen Sie unseren %(open)sLive-Chat%(close)s, um die Angelegenheit"
+"mit unserem Support zu besprechen. Die Untersuchung kann einige Tage dauern."
 
 #: templates/includes/de/help.html:30 templates/includes/en/help.html:30
 msgid "Part of my order is missing"
@@ -343,11 +346,12 @@ msgstr "Ein Teil meiner Bestellung fehlt"
 msgid ""
 "Please %(open)supload%(close)s photo evidence of your receipt. You will "
 "be refunded in two days."
-msgstr ""
+msgstr "Bitte %(open)sladen Sie%(close)s ein Foto Ihrer Quittung hoch. Die"
+"Rückerstattung erfolgt innerhalb von 2 Tagen."
 
 #: templates/includes/de/help.html:38 templates/includes/pl/help.html:15
 msgid "Chat now"
-msgstr ""
+msgstr "Jetzt chatten"
 
 #: templates/includes/de/navbar.html:11 templates/includes/en/navbar.html:11
 #: templates/includes/pl/navbar.html:11
@@ -387,7 +391,7 @@ msgstr ""
 #: templates/includes/de/progress.html:4 templates/includes/en/progress.html:1
 #: templates/includes/pl/progress.html:8
 msgid "Estimated time: 15-30 minutes"
-msgstr ""
+msgstr "Geschätzte Dauer: 15-30 Minuten"
 
 #: templates/includes/pl/help.html:7
 msgid "Email"
