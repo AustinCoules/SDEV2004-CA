@@ -37,6 +37,8 @@ msgstr "Deutsch"
 msgid "Polish"
 msgstr "Polnisch"
 
+msgid "View Restaurant"
+msgstr "Restaurant ansehen"
 
 msgid "Burger King Baggot St"
 msgstr "Schnitzelei Mitte Berlin"

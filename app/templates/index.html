@@ -22,7 +22,7 @@ Landing
 
         <form action="{{ url_for('restaurant') }}" method="get">
           <button type="submit" class="btn btn-primary">
-            View Restaurant
+            {{ _('View Restaurant')}}
           </button>
         </form>
 
@@ -44,9 +44,6 @@ Landing
     </div>
 
     <div class="receipt">
-      <h2 class="restaurant-name fs-5 fw-semibold mb-3">
-        {{ _('Restaurant Name') }}
-      </h2>
 
       <!-- Restaurants -->
       <ul class="list-group list-group-flush border-top">

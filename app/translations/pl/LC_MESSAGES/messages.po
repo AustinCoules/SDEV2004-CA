@@ -41,6 +41,9 @@ msgstr "Niemiecki"
 msgid "Polish"
 msgstr "Polski"
 
+msgid "View Restaurant"
+msgstr "Zobacz restaurację"
+
 msgid "Burger King Baggot St"                                                   
 msgstr "Burger King Kraków Galeria Krakowska "                                             
 
