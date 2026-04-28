@@ -425,6 +425,29 @@ msgstr ""
 
 #: templates/includes/pl/progress.html:8
 #, fuzzy
+
+# Restaurant names
+msgid "Burger King Baggot St"
+msgstr "Burger King Berlin – Alexanderplatz"
+
+msgid "Domino's Rathmines"
+msgstr "Domino’s Berlin – Kreuzberg"
+
+msgid "McDonald's O'Connell St"
+msgstr "McDonald’s Berlin – Friedrichstraße"
+
+
+
+msgid "€4–20"
+msgstr "€4–20"
+
+msgid "€14–30"
+msgstr "€14–30"
+
+msgid "€6–18"
+msgstr "€6–18"
+
+
 msgid "Done"
 msgstr "Domino's Pizza"
 
