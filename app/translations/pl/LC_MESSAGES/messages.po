@@ -353,37 +353,37 @@ msgstr "Czatuj teraz"
 #: templates/includes/de/navbar.html:11 templates/includes/en/navbar.html:11
 #: templates/includes/pl/navbar.html:11
 msgid "Become a Courier"
-msgstr ""
+msgstr "Zostań kurierem"
 
 #: templates/includes/de/navbar.html:14 templates/includes/en/navbar.html:14
 #: templates/includes/pl/navbar.html:14
 msgid "Contact Us"
-msgstr ""
+msgstr "Skontaktuj się z nami"
 
 #: templates/includes/de/navbar.html:23 templates/includes/en/navbar.html:23
 #: templates/includes/pl/navbar.html:23
 msgid "English"
-msgstr ""
+msgstr "Angielski"
 
 #: templates/includes/de/navbar.html:24 templates/includes/en/navbar.html:24
 #: templates/includes/pl/navbar.html:24
 msgid "German"
-msgstr ""
+msgstr "Niemiecki"
 
 #: templates/includes/de/navbar.html:25 templates/includes/en/navbar.html:25
 #: templates/includes/pl/navbar.html:25
 msgid "Polish"
-msgstr ""
+msgstr "Polski"
 
 #: templates/includes/de/navbar.html:31 templates/includes/en/navbar.html:31
 #: templates/includes/pl/navbar.html:31
 msgid "Sign In"
-msgstr ""
+msgstr "Zaloguj się"
 
 #: templates/includes/de/navbar.html:34 templates/includes/en/navbar.html:34
 #: templates/includes/pl/navbar.html:34
 msgid "Register"
-msgstr ""
+msgstr "Zarejestruj się"
 
 #: templates/includes/de/progress.html:4 templates/includes/en/progress.html:1
 #: templates/includes/pl/progress.html:8

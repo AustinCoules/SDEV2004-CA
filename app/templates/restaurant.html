@@ -52,6 +52,7 @@ c23491584
     </aside>
 
     <main class="content">
+        <!-- Searchbar for Irish and German markets as they prefer to pick certain choices that cater to their culture-->
         {% if lang_code in ['de', 'en'] %}
         <div class="search-bar">
             <input type="text" placeholder="{{ _('Search for restaurants or dishes...') }}">
@@ -83,7 +84,7 @@ c23491584
         </section>
 
         <div class="menu-grid">
-        <!--Deals based on what language is selected-->
+        <!--Selection of menu options, the first 6 are universal across each language while the other 6 are changed to cater to each culture-->
             <div class="menu-card">
                 <img src="{{ url_for('static', filename='assets/' + lang_code + '/menuitem/item1.jpg') }}" alt="item1">
                 <div class="menu-title">{{ _('Margherita Pizza') }}</div>
@@ -191,7 +192,7 @@ c23491584
                 <div class="menu-price">{{ _('€2.49') }}</div>
                 {% endif %}
             </div>
-
+            <!-- Cultural difference for drinks as different options such as beer for Germany or strawberry lemonade for Poland-->
             <div class="menu-card">
                 <img src="{{ url_for('static', filename='assets/' + lang_code + '/menuitem/item12.jpg') }}"
                      alt="item12">
@@ -215,7 +216,7 @@ c23491584
             </div>
         </section>
 
-        <!--Deals near the bottom of webpage for German and English speakers as they tend to be less indulgent-->
+        <!--Deals near the bottom of webpage for German and English speakers because they prefer following a familiar UI-->
         {% if lang_code in ['de', 'en'] %}
         <section class="promos">
             <h2 class="section-heading mb-0">
