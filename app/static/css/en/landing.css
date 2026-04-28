@@ -1,0 +1,47 @@
+/* Keep layout simple and close to Bootstrap defaults */
+.landing-page {
+  padding: 24px;
+  display: flex;
+  justify-content: center;
+}
+
+.panel {
+  width: 100%;
+  max-width: 700px;
+  padding: 16px;
+}
+
+/* Burger King main image (your HTML uses class="burger king burger") */
+.burger {
+  width: 100%;
+  max-height: 220px;      /* prevents it from becoming massive */
+  object-fit: cover;       /* crops nicely instead of stretching */
+  border-radius: 8px;
+  display: block;
+  margin: 12px 0;
+}
+
+/* Restaurant logos (your Domino's image has class="dominos" and McD uses "mcdonalds") */
+.dominos,
+.mcdonalds {
+  height: 40px;            /* keeps them consistent */
+  width: 60px;
+  object-fit: contain;
+  display: block;
+}
+
+/* Make all restaurant logos the same size */
+.dominos,
+.mcdonalds {
+  height: 40px;     /* adjust to make bigger/smaller */
+  width: 60px;
+  object-fit: contain;
+  display: block;
+}
+``
+/* keep the rating/time/price row from looking too chunky */
+.progress-icons .list-group-item {
+  padding: 6px 10px;
+  font-size: 0.95rem;
+}
+
