@@ -2,7 +2,7 @@
 msgid "Your order's in the kitchen!"
 msgstr ""
 
-#: templates/checkout.html:30 templates/index.html:57
+#: templates/checkout.html:30 templates/index.html:54
 msgid "Domino's Rathmines"
 msgstr ""
 
@@ -46,6 +46,10 @@ msgstr ""
 msgid "€0.15"
 msgstr ""
 
+#: templates/index.html:25
+msgid "View Restaurant"
+msgstr ""
+
 #: templates/index.html:30
 msgid "Burger King Baggot St"
 msgstr ""
@@ -54,19 +58,15 @@ msgstr ""
 msgid "€4–20"
 msgstr ""
 
-#: templates/index.html:48
-msgid "Restaurant Name"
-msgstr ""
-
-#: templates/index.html:68
+#: templates/index.html:65
 msgid "€14–30"
 msgstr ""
 
-#: templates/index.html:75
+#: templates/index.html:72
 msgid "McDonald's O'Connell St"
 msgstr ""
 
-#: templates/index.html:86
+#: templates/index.html:83
 msgid "€6–18"
 msgstr ""
 
@@ -192,11 +192,11 @@ msgstr ""
 msgid "Part of my order is missing"
 msgstr ""
 
-#: templates/includes/de/help.html:34
+#: templates/includes/de/help.html:34 templates/includes/en/help.html:34
 #, python-format
 msgid ""
-"Please %(open)supload a photo of your receipt%(close)s — you will be "
-"refunded in two business days after verification."
+"Please %(open)supload%(close)s photo evidence of your receipt. You will "
+"be refunded in two days."
 msgstr ""
 
 #: templates/includes/de/help.html:38 templates/includes/pl/help.html:15
@@ -248,13 +248,6 @@ msgstr ""
 msgid ""
 "Use our %(open)slive chat%(close)s to discuss the matter with our "
 "support. An investigation may take a few days."
-msgstr ""
-
-#: templates/includes/en/help.html:34
-#, python-format
-msgid ""
-"Please %(open)supload%(close)s photo evidence of your receipt. You will "
-"be refunded in two days."
 msgstr ""
 
 #: templates/includes/pl/help.html:7
