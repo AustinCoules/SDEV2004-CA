@@ -167,3 +167,32 @@ hr.rounded {
 .checkout-btn:hover {
     background-color: #2fa66a;
 }
+
+.search-bar {
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.search-bar input {
+    flex: 1;
+    padding: 12px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.search-bar button {
+    padding: 12px 20px;
+    background-color: #36c37c;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #2fa66a;
+}
