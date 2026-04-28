@@ -44,8 +44,17 @@ msgstr "Polski"
 msgid "Burger King Baggot St"                                                   
 msgstr "Burger King Kraków Galeria Krakowska "                                             
 
+msgid "€4–20"                                                   
+msgstr "20–90 zł"                                             
+
 msgid "Domino's Rathmines"                                                      
 msgstr "Domino's Pizza Bociana"                                   
 
+msgid "€14–30"
+msgstr "65–135 zł"
+
 msgid "McDonald's O'Connell St"                                                 
 msgstr "Odwiedź restaurację McDonald's w Kraków"                           
+
+msgid "€6–18"
+msgstr "25–80 zł"
