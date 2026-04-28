@@ -167,3 +167,87 @@ hr.rounded {
 .checkout-btn:hover {
     background-color: #2fa66a;
 }
+
+.search-bar {
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.search-bar input {
+    flex: 1;
+    padding: 12px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.search-bar button {
+    padding: 12px 20px;
+    background-color: #36c37c;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #2fa66a;
+}
+
+.price-filter {
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #5a7f9c;
+    border-radius: 8px;
+    color: white;
+}
+
+.price-filter h4 {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.price-filter label {
+    display: block;
+    font-size: 13px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.coupon-box {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #5a7f9c;
+    border-radius: 8px;
+    color: white;
+}
+
+.coupon-box h4 {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.coupon-box input {
+    width: 100%;
+    padding: 6px;
+    margin-bottom: 8px;
+    border: none;
+    border-radius: 5px;
+}
+
+.coupon-box button {
+    width: 100%;
+    padding: 6px;
+    background-color: #36c37c;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.coupon-box button:hover {
+    background-color: #2fa66a;
+}

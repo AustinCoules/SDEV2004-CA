@@ -55,9 +55,8 @@ html, body {
 .page-section img {
     display: block;
     margin: 20px auto;
-    max-width: 600px;
-    width: 100%;
-    height: auto;
+    width: 400px;
+    height: 700px;
 }
 
 /* === SMALL BOX ROW === */
@@ -165,5 +164,45 @@ hr.rounded {
 
 /* Hover effect */
 .checkout-btn:hover {
+    background-color: #2fa66a;
+}
+
+.polish-promo{
+   font-size: 50px;
+   display: flex;
+}
+
+.coupon-box {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #5a7f9c;
+    border-radius: 8px;
+    color: white;
+}
+
+.coupon-box h4 {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.coupon-box input {
+    width: 100%;
+    padding: 6px;
+    margin-bottom: 8px;
+    border: none;
+    border-radius: 5px;
+}
+
+.coupon-box button {
+    width: 100%;
+    padding: 6px;
+    background-color: #36c37c;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.coupon-box button:hover {
     background-color: #2fa66a;
 }
