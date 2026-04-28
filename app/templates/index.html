@@ -4,6 +4,11 @@
 Landing
 {% endblock %}
 
+
+<!-- Language-specific CSS is loaded dynamically based on the user's
+selected language. -->
+
+
 {% block page_css %}
 <link
   rel="stylesheet"
@@ -28,6 +33,10 @@ Landing
 
 
     <h1>{{ _('Burger King Baggot St') }}</h1>
+
+    <!-- Restaurant image is language-aware to support:
+    - Localized restaurants -->
+
 
     <img
       class="restaurant-image"
