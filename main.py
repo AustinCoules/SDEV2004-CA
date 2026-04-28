@@ -1,16 +1,20 @@
-# This is a sample Python script.
+# Author: Austin Coules (C23444946)
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+# Git did not support the .mo binaries well
+# As a workaround we excluded the binaries from the repo
+# Which requires the end user to compile it themselves
+# This script also runs the flask server for convenience
 
+import os
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+8 to toggle the breakpoint.
+def main():
+    # Install dependencies
+    os.system('pip install flask')
+    os.system('pip install babel')
 
+    # Run website
+    os.system('pybabel compile -d app/translations')
+    os.system('flask run')
 
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    main()

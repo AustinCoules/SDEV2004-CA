@@ -1,3 +1,10 @@
+<!--RESTAURANT WEBPAGE
+By Daniel Courage
+c23491584
+-->
+
+
+
 {% extends "base.html" %}
 {% block title %}Restaurants{% endblock %}
 
@@ -19,12 +26,15 @@
             <div class="restaurants-item">{{ _('Burger King') }}</div>
             <div class="restaurants-item">{{ _('Dominoes') }}</div>
         </div>
+
+        <!--COUPON BOX for Polish only in accordance with Polish needs for UI and UX-->
         {% if lang_code =='pl' %}
         <div class="coupon-box">
             <h4>{{ _('Coupon Code') }}</h4>
             <input type="text" placeholder="{{ _('Enter Code') }}">
             <button>{{ _('Enter') }}</button>
         </div>
+        <!--Filtering options for German UI to apply the ease of access for the German market-->
         {% elif lang_code == 'de' %}
         <div class="price-filter">
             <h4>{{ _('Price Filter') }}</h4>
@@ -42,6 +52,7 @@
     </aside>
 
     <main class="content">
+        <!-- Searchbar for Irish and German markets as they prefer to pick certain choices that cater to their culture-->
         {% if lang_code in ['de', 'en'] %}
         <div class="search-bar">
             <input type="text" placeholder="{{ _('Search for restaurants or dishes...') }}">
@@ -51,6 +62,7 @@
         <div class="polish-promo">
             {{ _('Popular in Warsaw Today') }}
         </div>
+        <!--PROMOTIONAL IMAGES-->
         <div class="small-box-row">
             <div class="small-box">
                 <img src="{{ url_for('static', filename='assets/' + lang_code + '/promo1.jpg') }}" alt="promo"/>
@@ -72,7 +84,7 @@
         </section>
 
         <div class="menu-grid">
-
+        <!--Selection of menu options, the first 6 are universal across each language while the other 6 are changed to cater to each culture-->
             <div class="menu-card">
                 <img src="{{ url_for('static', filename='assets/' + lang_code + '/menuitem/item1.jpg') }}" alt="item1">
                 <div class="menu-title">{{ _('Margherita Pizza') }}</div>
@@ -180,7 +192,7 @@
                 <div class="menu-price">{{ _('€2.49') }}</div>
                 {% endif %}
             </div>
-
+            <!-- Cultural difference for drinks as different options such as beer for Germany or strawberry lemonade for Poland-->
             <div class="menu-card">
                 <img src="{{ url_for('static', filename='assets/' + lang_code + '/menuitem/item12.jpg') }}"
                      alt="item12">
@@ -204,6 +216,7 @@
             </div>
         </section>
 
+        <!--Deals near the bottom of webpage for German and English speakers because they prefer following a familiar UI-->
         {% if lang_code in ['de', 'en'] %}
         <section class="promos">
             <h2 class="section-heading mb-0">

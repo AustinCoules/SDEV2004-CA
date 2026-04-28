@@ -1,3 +1,5 @@
 .idea
 .pyc
 .DS_STORE
+.mo
+messages.mo
