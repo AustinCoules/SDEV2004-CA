@@ -389,3 +389,7 @@ msgstr ""
 msgid "Delivering"
 msgstr ""
 
+#: templates/includes/pl/progress.html:5
+msgid "Done"
+msgstr ""
+

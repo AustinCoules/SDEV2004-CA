@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-04-28 16:10+0100\n"
+"POT-Creation-Date: 2026-04-28 17:24+0100\n"
 "PO-Revision-Date: 2026-04-28 16:10+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: pl\n"
@@ -21,53 +21,53 @@ msgstr ""
 
 #: templates/checkout.html:19
 msgid "Your order's in the kitchen!"
-msgstr ""
+msgstr "Twoje zamówienie jest w kuchni"
 
 #: templates/checkout.html:30 templates/index.html:54
 msgid "Domino's Rathmines"
-msgstr ""
+msgstr "Domino's Kraków"
 
 #: templates/checkout.html:33 templates/restaurant.html:84
 msgid "Pepperoni Pizza"
-msgstr ""
+msgstr "Pizza w Pepperoni"
 
 #: templates/checkout.html:34 templates/restaurant.html:85
 msgid "€9.99"
-msgstr ""
+msgstr "42zł"
 
 #: templates/checkout.html:37 templates/restaurant.html:149
 msgid "Stuffed Cheesy Bread"
-msgstr ""
+msgstr "Chleb z Nadzieniem Serowym"
 
 #: templates/checkout.html:38 templates/restaurant.html:119
 #: templates/restaurant.html:144 templates/restaurant.html:150
 msgid "€6.49"
-msgstr ""
+msgstr "29zł"
 
 #: templates/checkout.html:41 templates/restaurant.html:179
 msgid "Coke"
-msgstr ""
+msgstr "Pepsi Lemon Zero"
 
 #: templates/checkout.html:42 templates/restaurant.html:180
 #: templates/restaurant.html:195
 msgid "€2.49"
-msgstr ""
+msgstr "10,08zł"
 
 #: templates/checkout.html:49
 msgid "Delivery"
-msgstr ""
+msgstr "Koszt Dostawy"
 
 #: templates/checkout.html:51
 msgid "€3.50"
-msgstr ""
+msgstr "15zł"
 
 #: templates/checkout.html:56
 msgid "Deposit Return"
-msgstr ""
+msgstr "Kaucja"
 
 #: templates/checkout.html:58
 msgid "€0.15"
-msgstr ""
+msgstr "1zł"
 
 #: templates/index.html:25
 msgid "View Restaurant"
@@ -154,7 +154,9 @@ msgid "Menu"
 msgstr "Menu"
 
 #: templates/restaurant.html:71
-msgid "Discover a selection of popular dining options tailored to your preferences."
+msgid ""
+"Discover a selection of popular dining options tailored to your "
+"preferences."
 msgstr "Odkryj wybór popularnych dań dopasowanych do Twoich preferencji."
 
 #: templates/restaurant.html:78
@@ -201,7 +203,8 @@ msgstr "52,76 zł"
 msgid "Loaded Fries"
 msgstr "Frytki z dodatkami"
 
-#: templates/restaurant.html:116 templates/restaurant.html:122 templates/restaurant.html:130
+#: templates/restaurant.html:116 templates/restaurant.html:122
+#: templates/restaurant.html:130
 msgid "€4.99"
 msgstr "21,96 zł"
 
@@ -305,11 +308,10 @@ msgstr "Polecane oferty"
 msgid "Go to Checkout"
 msgstr "Przejdź do kasy"
 
-
 #: templates/includes/de/help.html:3 templates/includes/en/help.html:3
 #: templates/includes/pl/help.html:3
 msgid "Need help with your order?"
-msgstr ""
+msgstr "Potrzebujesz pomocy przy twoje zamówienie?"
 
 #: templates/includes/de/help.html:10 templates/includes/en/help.html:10
 msgid "I want to change my order"
@@ -346,7 +348,7 @@ msgstr ""
 
 #: templates/includes/de/help.html:38 templates/includes/pl/help.html:15
 msgid "Chat now"
-msgstr ""
+msgstr "Czatuj teraz"
 
 #: templates/includes/de/navbar.html:11 templates/includes/en/navbar.html:11
 #: templates/includes/pl/navbar.html:11
@@ -386,25 +388,30 @@ msgstr ""
 #: templates/includes/de/progress.html:4 templates/includes/en/progress.html:1
 #: templates/includes/pl/progress.html:8
 msgid "Estimated time: 15-30 minutes"
-msgstr ""
+msgstr "Szancowany czas: 15-30 minut"
 
 #: templates/includes/pl/help.html:7
 msgid "Email"
-msgstr ""
+msgstr "E-mail"
 
 #: templates/includes/pl/help.html:8
 msgid "help@chownow.ie"
-msgstr ""
+msgstr "wsparcie@chownow.pl"
 
 #: templates/includes/pl/help.html:11
 msgid "Phone"
-msgstr ""
+msgstr "Telefon"
 
 #: templates/includes/pl/progress.html:3
 msgid "Cooking"
-msgstr ""
+msgstr "Gotowanie"
 
 #: templates/includes/pl/progress.html:4
 msgid "Delivering"
-msgstr ""
+msgstr "Dostarczanie"
+
+#: templates/includes/pl/progress.html:5
+#, fuzzy
+msgid "Done"
+msgstr "Gotowe"
 
