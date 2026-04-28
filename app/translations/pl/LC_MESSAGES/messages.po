@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-04-21 15:46+0100\n"
-"PO-Revision-Date: 2026-04-21 15:46+0100\n"
+"POT-Creation-Date: 2026-04-28 16:10+0100\n"
+"PO-Revision-Date: 2026-04-28 16:10+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: pl\n"
 "Language-Team: pl <LL@li.org>\n"
@@ -19,45 +19,394 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.18.0\n"
 
-#: templates/checkout.html:11
-msgid "Hi"
-msgstr "Cześć"
+#: templates/checkout.html:19
+msgid "Your order's in the kitchen!"
+msgstr ""
 
-#: templates/includes/de/navbar.html:17 templates/includes/en/navbar.html:17
-#: templates/includes/pl/navbar.html:17
-msgid "English"
-msgstr "Angielski"
+#: templates/checkout.html:30 templates/index.html:54
+msgid "Domino's Rathmines"
+msgstr ""
 
-#: templates/includes/de/navbar.html:18 templates/includes/en/navbar.html:18
-#: templates/includes/pl/navbar.html:18
-msgid "German"
-msgstr "Niemiecki"
+#: templates/checkout.html:33 templates/restaurant.html:84
+msgid "Pepperoni Pizza"
+msgstr ""
 
-#: templates/includes/de/navbar.html:19 templates/includes/en/navbar.html:19
-#: templates/includes/pl/navbar.html:19
+#: templates/checkout.html:34 templates/restaurant.html:85
+msgid "€9.99"
+msgstr ""
 
+#: templates/checkout.html:37 templates/restaurant.html:149
+msgid "Stuffed Cheesy Bread"
+msgstr ""
 
-#: index.html
-msgid "Polish"
-msgstr "Polski"
+#: templates/checkout.html:38 templates/restaurant.html:119
+#: templates/restaurant.html:144 templates/restaurant.html:150
+msgid "€6.49"
+msgstr ""
 
+#: templates/checkout.html:41 templates/restaurant.html:179
+msgid "Coke"
+msgstr ""
+
+#: templates/checkout.html:42 templates/restaurant.html:180
+#: templates/restaurant.html:195
+msgid "€2.49"
+msgstr ""
+
+#: templates/checkout.html:49
+msgid "Delivery"
+msgstr ""
+
+#: templates/checkout.html:51
+msgid "€3.50"
+msgstr ""
+
+#: templates/checkout.html:56
+msgid "Deposit Return"
+msgstr ""
+
+#: templates/checkout.html:58
+msgid "€0.15"
+msgstr ""
+
+#: templates/index.html:25
 msgid "View Restaurant"
-msgstr "Zobacz restaurację"
+msgstr ""
 
-msgid "Burger King Baggot St"                                                   
-msgstr "Burger King Kraków Galeria Krakowska "                                             
+#: templates/index.html:30
+msgid "Burger King Baggot St"
+msgstr ""
 
-msgid "€4–20"                                                   
-msgstr "20–90 zł"                                             
+#: templates/index.html:42
+msgid "€4–20"
+msgstr ""
 
-msgid "Domino's Rathmines"                                                      
-msgstr "Domino's Pizza Bociana"                                   
-
+#: templates/index.html:65
 msgid "€14–30"
-msgstr "65–135 zł"
+msgstr ""
 
-msgid "McDonald's O'Connell St"                                                 
-msgstr "Odwiedź restaurację McDonald's w Kraków"                           
+#: templates/index.html:72
+msgid "McDonald's O'Connell St"
+msgstr ""
 
+#: templates/index.html:83
 msgid "€6–18"
-msgstr "25–80 zł"
+msgstr ""
+
+#: templates/restaurant.html:18
+msgid "Mcdonalds"
+msgstr ""
+
+#: templates/restaurant.html:19
+msgid "Burger King"
+msgstr ""
+
+#: templates/restaurant.html:20
+msgid "Dominoes"
+msgstr ""
+
+#: templates/restaurant.html:24 templates/restaurant.html:37
+msgid "Coupon Code"
+msgstr ""
+
+#: templates/restaurant.html:25 templates/restaurant.html:38
+msgid "Enter Code"
+msgstr ""
+
+#: templates/restaurant.html:26 templates/restaurant.html:39
+msgid "Enter"
+msgstr ""
+
+#: templates/restaurant.html:30
+msgid "Price Filter"
+msgstr ""
+
+#: templates/restaurant.html:31
+msgid "Under 5€"
+msgstr ""
+
+#: templates/restaurant.html:32
+msgid "5€ - 10€"
+msgstr ""
+
+#: templates/restaurant.html:33
+msgid "10€ - 15€"
+msgstr ""
+
+#: templates/restaurant.html:34
+msgid "Over 15€"
+msgstr ""
+
+#: templates/restaurant.html:47
+msgid "Search for restaurants or dishes..."
+msgstr ""
+
+#: templates/restaurant.html:48
+msgid "Search"
+msgstr ""
+
+#: templates/restaurant.html:52
+msgid "Popular in Warsaw Today"
+msgstr ""
+
+#: templates/restaurant.html:69
+msgid "Menu"
+msgstr ""
+
+#: templates/restaurant.html:71
+msgid ""
+"Discover a selection of popular dining options tailored to your "
+"preferences."
+msgstr ""
+
+#: templates/restaurant.html:78
+msgid "Margherita Pizza"
+msgstr ""
+
+#: templates/restaurant.html:79
+msgid "€8.99"
+msgstr ""
+
+#: templates/restaurant.html:90
+msgid "BBQ Chicken Pizza"
+msgstr ""
+
+#: templates/restaurant.html:91
+msgid "€10.99"
+msgstr ""
+
+#: templates/restaurant.html:96
+msgid "Veggie Supreme"
+msgstr ""
+
+#: templates/restaurant.html:97
+msgid "€9.49"
+msgstr ""
+
+#: templates/restaurant.html:102
+msgid "Hawaiian Pizza"
+msgstr ""
+
+#: templates/restaurant.html:103
+msgid "€10.49"
+msgstr ""
+
+#: templates/restaurant.html:108
+msgid "Meat Lovers Pizza"
+msgstr ""
+
+#: templates/restaurant.html:109
+msgid "€11.99"
+msgstr ""
+
+#: templates/restaurant.html:115
+msgid "Loaded Fries"
+msgstr ""
+
+#: templates/restaurant.html:116 templates/restaurant.html:122
+#: templates/restaurant.html:130
+msgid "€4.99"
+msgstr ""
+
+#: templates/restaurant.html:118
+msgid "Double Deal"
+msgstr ""
+
+#: templates/restaurant.html:121
+msgid "Garlic Bread"
+msgstr ""
+
+#: templates/restaurant.html:129
+msgid "Cheesy Garlic Bread"
+msgstr ""
+
+#: templates/restaurant.html:132
+msgid "Cheesy Dough Balls"
+msgstr ""
+
+#: templates/restaurant.html:133
+msgid "€5.99"
+msgstr ""
+
+#: templates/restaurant.html:135
+msgid "Chicken Wings"
+msgstr ""
+
+#: templates/restaurant.html:136
+msgid "€7.99"
+msgstr ""
+
+#: templates/restaurant.html:143
+msgid "Cheesy Fries"
+msgstr ""
+
+#: templates/restaurant.html:146
+msgid "Dough Balls with Jalapenos"
+msgstr ""
+
+#: templates/restaurant.html:147 templates/restaurant.html:162
+msgid "€6.59"
+msgstr ""
+
+#: templates/restaurant.html:158
+msgid "Cheesy Garlic Bread with Pepperoni"
+msgstr ""
+
+#: templates/restaurant.html:159 templates/restaurant.html:165
+msgid "€5.49"
+msgstr ""
+
+#: templates/restaurant.html:161
+msgid "Mexican Dough Balls"
+msgstr ""
+
+#: templates/restaurant.html:164
+msgid "Chocolate Lava Cake"
+msgstr ""
+
+#: templates/restaurant.html:173
+msgid "Pepsi Lemon Zero"
+msgstr ""
+
+#: templates/restaurant.html:174
+msgid "€2.29"
+msgstr ""
+
+#: templates/restaurant.html:176
+msgid "Mez Mix"
+msgstr ""
+
+#: templates/restaurant.html:177
+msgid "€1.29"
+msgstr ""
+
+#: templates/restaurant.html:188
+msgid "Strawberry Lemonade"
+msgstr ""
+
+#: templates/restaurant.html:189
+msgid "€1.49"
+msgstr ""
+
+#: templates/restaurant.html:191
+msgid "Heineken"
+msgstr ""
+
+#: templates/restaurant.html:192
+msgid "€4.39"
+msgstr ""
+
+#: templates/restaurant.html:194
+msgid "Sprite"
+msgstr ""
+
+#: templates/restaurant.html:210
+msgid "Recommended deals"
+msgstr ""
+
+#: templates/restaurant.html:227
+msgid "Go to Checkout"
+msgstr ""
+
+#: templates/includes/de/help.html:3 templates/includes/en/help.html:3
+#: templates/includes/pl/help.html:3
+msgid "Need help with your order?"
+msgstr ""
+
+#: templates/includes/de/help.html:10 templates/includes/en/help.html:10
+msgid "I want to change my order"
+msgstr ""
+
+#: templates/includes/de/help.html:14 templates/includes/en/help.html:14
+#, python-format
+msgid ""
+"You can edit your order within the first 3 minutes of ordering "
+"%(open)shere%(close)s. It can take up to 3 days to reprocess the payment."
+msgstr ""
+
+#: templates/includes/de/help.html:20 templates/includes/en/help.html:20
+msgid "My order did not arrive"
+msgstr ""
+
+#: templates/includes/de/help.html:24 templates/includes/en/help.html:24
+#, python-format
+msgid ""
+"Use our %(open)sLive Chat%(close)s to discuss the matter with our "
+"support. An investigation may take a few days."
+msgstr ""
+
+#: templates/includes/de/help.html:30 templates/includes/en/help.html:30
+msgid "Part of my order is missing"
+msgstr ""
+
+#: templates/includes/de/help.html:34 templates/includes/en/help.html:34
+#, python-format
+msgid ""
+"Please %(open)supload%(close)s photo evidence of your receipt. You will "
+"be refunded in two days."
+msgstr ""
+
+#: templates/includes/de/help.html:38 templates/includes/pl/help.html:15
+msgid "Chat now"
+msgstr ""
+
+#: templates/includes/de/navbar.html:11 templates/includes/en/navbar.html:11
+#: templates/includes/pl/navbar.html:11
+msgid "Become a Courier"
+msgstr ""
+
+#: templates/includes/de/navbar.html:14 templates/includes/en/navbar.html:14
+#: templates/includes/pl/navbar.html:14
+msgid "Contact Us"
+msgstr ""
+
+#: templates/includes/de/navbar.html:23 templates/includes/en/navbar.html:23
+#: templates/includes/pl/navbar.html:23
+msgid "English"
+msgstr ""
+
+#: templates/includes/de/navbar.html:24 templates/includes/en/navbar.html:24
+#: templates/includes/pl/navbar.html:24
+msgid "German"
+msgstr ""
+
+#: templates/includes/de/navbar.html:25 templates/includes/en/navbar.html:25
+#: templates/includes/pl/navbar.html:25
+msgid "Polish"
+msgstr ""
+
+#: templates/includes/de/navbar.html:31 templates/includes/en/navbar.html:31
+#: templates/includes/pl/navbar.html:31
+msgid "Sign In"
+msgstr ""
+
+#: templates/includes/de/navbar.html:34 templates/includes/en/navbar.html:34
+#: templates/includes/pl/navbar.html:34
+msgid "Register"
+msgstr ""
+
+#: templates/includes/de/progress.html:4 templates/includes/en/progress.html:1
+#: templates/includes/pl/progress.html:8
+msgid "Estimated time: 15-30 minutes"
+msgstr ""
+
+#: templates/includes/pl/help.html:7
+msgid "Email"
+msgstr ""
+
+#: templates/includes/pl/help.html:8
+msgid "help@chownow.ie"
+msgstr ""
+
+#: templates/includes/pl/help.html:11
+msgid "Phone"
+msgstr ""
+
+#: templates/includes/pl/progress.html:3
+msgid "Cooking"
+msgstr ""
+
+#: templates/includes/pl/progress.html:4
+msgid "Delivering"
+msgstr ""
+
