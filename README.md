@@ -53,6 +53,9 @@ It uses a familiar design to what each culture is used to when accessing a food 
 
 ### Oscar
 
+My focus was on the landing page. I created a different design based on the users language; German, Polish or English. The page
+translated into the selected language and shows the restaurants nearby to them with delivery time, price and ETA. 
+
 ## Running this Project
 ### Dependencies
 ``pip install flask flask-babel``
