@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-04-28 15:49+0100\n"
-"PO-Revision-Date: 2026-04-28 15:49+0100\n"
+"POT-Creation-Date: 2026-04-28 16:07+0100\n"
+"PO-Revision-Date: 2026-04-28 16:07+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: de\n"
 "Language-Team: de <LL@li.org>\n"
@@ -24,29 +24,31 @@ msgstr ""
 
 #: templates/checkout.html:30 templates/index.html:54
 msgid "Domino's Rathmines"
-msgstr ""
+msgstr "Domino's"
 
-#: templates/checkout.html:33 templates/restaurant.html:57
+#: templates/checkout.html:33 templates/restaurant.html:84
 msgid "Pepperoni Pizza"
 msgstr ""
 
-#: templates/checkout.html:34
+#: templates/checkout.html:34 templates/restaurant.html:85
 msgid "€9.99"
 msgstr ""
 
-#: templates/checkout.html:37
+#: templates/checkout.html:37 templates/restaurant.html:149
 msgid "Stuffed Cheesy Bread"
 msgstr ""
 
-#: templates/checkout.html:38 templates/restaurant.html:124
+#: templates/checkout.html:38 templates/restaurant.html:119
+#: templates/restaurant.html:144 templates/restaurant.html:150
 msgid "€6.49"
 msgstr ""
 
-#: templates/checkout.html:41
+#: templates/checkout.html:41 templates/restaurant.html:179
 msgid "Coke"
 msgstr ""
 
-#: templates/checkout.html:42
+#: templates/checkout.html:42 templates/restaurant.html:180
+#: templates/restaurant.html:195
 msgid "€2.49"
 msgstr ""
 
@@ -90,94 +92,218 @@ msgstr ""
 msgid "€6–18"
 msgstr ""
 
-#: templates/restaurant.html:19
+#: templates/restaurant.html:18
 msgid "Mcdonalds"
 msgstr ""
 
-#: templates/restaurant.html:20
+#: templates/restaurant.html:19
 msgid "Burger King"
 msgstr ""
 
-#: templates/restaurant.html:21
+#: templates/restaurant.html:20
 msgid "Dominoes"
 msgstr ""
 
-#: templates/restaurant.html:32 templates/restaurant.html:34
-#: templates/restaurant.html:36
+#: templates/restaurant.html:24 templates/restaurant.html:37
+msgid "Coupon Code"
+msgstr ""
+
+#: templates/restaurant.html:25 templates/restaurant.html:38
+msgid "Enter Code"
+msgstr ""
+
+#: templates/restaurant.html:26 templates/restaurant.html:39
+msgid "Enter"
+msgstr ""
+
+#: templates/restaurant.html:30
+msgid "Price Filter"
+msgstr ""
+
+#: templates/restaurant.html:31
+msgid "Under 5€"
+msgstr ""
+
+#: templates/restaurant.html:32
+msgid "5€ - 10€"
+msgstr ""
+
+#: templates/restaurant.html:33
+msgid "10€ - 15€"
+msgstr ""
+
+#: templates/restaurant.html:34
+msgid "Over 15€"
+msgstr ""
+
+#: templates/restaurant.html:47
+msgid "Search for restaurants or dishes..."
+msgstr ""
+
+#: templates/restaurant.html:48
+msgid "Search"
+msgstr ""
+
+#: templates/restaurant.html:52
+msgid "Popular in Warsaw Today"
+msgstr ""
+
+#: templates/restaurant.html:69
 msgid "Menu"
 msgstr ""
 
-#: templates/restaurant.html:43
-msgid "Dominos Menu"
-msgstr ""
-
-#: templates/restaurant.html:50
-msgid "Margherita Pizza"
-msgstr ""
-
-#: templates/restaurant.html:64
-msgid "BBQ Chicken Pizza"
-msgstr ""
-
 #: templates/restaurant.html:71
-msgid "Veggie Supreme"
+msgid ""
+"Discover a selection of popular dining options tailored to your "
+"preferences."
 msgstr ""
 
 #: templates/restaurant.html:78
+msgid "Margherita Pizza"
+msgstr ""
+
+#: templates/restaurant.html:79
+msgid "€8.99"
+msgstr ""
+
+#: templates/restaurant.html:90
+msgid "BBQ Chicken Pizza"
+msgstr ""
+
+#: templates/restaurant.html:91
+msgid "€10.99"
+msgstr ""
+
+#: templates/restaurant.html:96
+msgid "Veggie Supreme"
+msgstr ""
+
+#: templates/restaurant.html:97
+msgid "€9.49"
+msgstr ""
+
+#: templates/restaurant.html:102
 msgid "Hawaiian Pizza"
 msgstr ""
 
-#: templates/restaurant.html:85
-msgid "Meat Lovers Pizza"
-msgstr ""
-
-#: templates/restaurant.html:93
-msgid "Loaded Fries"
-msgstr ""
-
-#: templates/restaurant.html:96 templates/restaurant.html:111
-#: templates/restaurant.html:126 templates/restaurant.html:141
-#: templates/restaurant.html:156 templates/restaurant.html:171
-msgid "Garlic Bread"
+#: templates/restaurant.html:103
+msgid "€10.49"
 msgstr ""
 
 #: templates/restaurant.html:108
-msgid "Cheesy Garlic Bread"
+msgid "Meat Lovers Pizza"
 msgstr ""
 
 #: templates/restaurant.html:109
+msgid "€11.99"
+msgstr ""
+
+#: templates/restaurant.html:115
+msgid "Loaded Fries"
+msgstr ""
+
+#: templates/restaurant.html:116 templates/restaurant.html:122
+#: templates/restaurant.html:130
 msgid "€4.99"
 msgstr ""
 
-#: templates/restaurant.html:123
+#: templates/restaurant.html:118
+msgid "Double Deal"
+msgstr ""
+
+#: templates/restaurant.html:121
+msgid "Garlic Bread"
+msgstr ""
+
+#: templates/restaurant.html:129
+msgid "Cheesy Garlic Bread"
+msgstr ""
+
+#: templates/restaurant.html:132
+msgid "Cheesy Dough Balls"
+msgstr ""
+
+#: templates/restaurant.html:133
+msgid "€5.99"
+msgstr ""
+
+#: templates/restaurant.html:135
+msgid "Chicken Wings"
+msgstr ""
+
+#: templates/restaurant.html:136
+msgid "€7.99"
+msgstr ""
+
+#: templates/restaurant.html:143
 msgid "Cheesy Fries"
 msgstr ""
 
-#: templates/restaurant.html:138
+#: templates/restaurant.html:146
+msgid "Dough Balls with Jalapenos"
+msgstr ""
+
+#: templates/restaurant.html:147 templates/restaurant.html:162
+msgid "€6.59"
+msgstr ""
+
+#: templates/restaurant.html:158
 msgid "Cheesy Garlic Bread with Pepperoni"
 msgstr ""
 
-#: templates/restaurant.html:139
+#: templates/restaurant.html:159 templates/restaurant.html:165
 msgid "€5.49"
 msgstr ""
 
-#: templates/restaurant.html:153
+#: templates/restaurant.html:161
+msgid "Mexican Dough Balls"
+msgstr ""
+
+#: templates/restaurant.html:164
+msgid "Chocolate Lava Cake"
+msgstr ""
+
+#: templates/restaurant.html:173
 msgid "Pepsi Lemon Zero"
 msgstr ""
 
-#: templates/restaurant.html:154
+#: templates/restaurant.html:174
 msgid "€2.29"
 msgstr ""
 
-#: templates/restaurant.html:168
+#: templates/restaurant.html:176
+msgid "Mez Mix"
+msgstr ""
+
+#: templates/restaurant.html:177
+msgid "€1.29"
+msgstr ""
+
+#: templates/restaurant.html:188
 msgid "Strawberry Lemonade"
 msgstr ""
 
-#: templates/restaurant.html:169
+#: templates/restaurant.html:189
 msgid "€1.49"
 msgstr ""
 
-#: templates/restaurant.html:216
+#: templates/restaurant.html:191
+msgid "Heineken"
+msgstr ""
+
+#: templates/restaurant.html:192
+msgid "€4.39"
+msgstr ""
+
+#: templates/restaurant.html:194
+msgid "Sprite"
+msgstr ""
+
+#: templates/restaurant.html:210
+msgid "Recommended deals"
+msgstr ""
+
+#: templates/restaurant.html:227
 msgid "Go to Checkout"
 msgstr ""
 
@@ -201,17 +327,16 @@ msgstr ""
 msgid "My order did not arrive"
 msgstr ""
 
-#: templates/includes/de/help.html:24
+#: templates/includes/de/help.html:24 templates/includes/en/help.html:24
 #, python-format
 msgid ""
 "Use our %(open)sLive Chat%(close)s to discuss the matter with our "
 "support. An investigation may take a few days."
-msgstr "Nutzen Sie unseren %(open)sLive-Chat%(close)s, um die Angelegenheit mit unserem Support zu besprechen. "
-"Eine Untersuchung kann einige Tage dauern."
+msgstr ""
 
 #: templates/includes/de/help.html:30 templates/includes/en/help.html:30
 msgid "Part of my order is missing"
-msgstr ""
+msgstr "Ein Teil meiner Bestellung fehlt"
 
 #: templates/includes/de/help.html:34 templates/includes/en/help.html:34
 #, python-format
