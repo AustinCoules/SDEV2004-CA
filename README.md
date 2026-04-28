@@ -12,8 +12,14 @@
 ## Cultural Adaptation Mechanisms
 
 ## Individual Contributions
-[Austin](docs/reflections/C23444946.md)
+### Austin
+I worked on the checkout page for this website. This involved several sections, including a receipt showing the
+purchased items, a progress tracker to show when the food delivery should arrive, and a support section where you could
+get help once you have paid for your order. For both the progress tracker and support sections there were several
+aspects that I localised to each target culture. I translated this page into German and Polish.
 
-[Daniel](link/to/reflection)
+I also set up and managed the GitHub repository, coordinating merges and maintaining the issue tracker.
 
-[Oscar](docs/reflections/C24425236.md)
+# Daniel
+
+# Oscar
