@@ -1,3 +1,5 @@
+<!-- Author: Austin Coules (C23444946) -->
+
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
         <!-- Branding -->
@@ -16,13 +18,17 @@
 
             <!-- Language Dropdown -->
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                   data-bs-toggle="dropdown" aria-expanded="false">
                     Language
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <li><a class="dropdown-item" href="{{ url_for('set_language', lang_code='en') }}">{{_('English')}}</a></li>
-                    <li><a class="dropdown-item" href="{{ url_for('set_language', lang_code='de') }}">{{_('German')}}</a></li>
-                    <li><a class="dropdown-item" href="{{ url_for('set_language', lang_code='pl') }}">{{_('Polish')}}</a></li>
+                    <li><a class="dropdown-item"
+                           href="{{ url_for('set_language', lang_code='en') }}">{{_('English')}}</a></li>
+                    <li><a class="dropdown-item"
+                           href="{{ url_for('set_language', lang_code='de') }}">{{_('German')}}</a></li>
+                    <li><a class="dropdown-item"
+                           href="{{ url_for('set_language', lang_code='pl') }}">{{_('Polish')}}</a></li>
                 </ul>
             </li>
 

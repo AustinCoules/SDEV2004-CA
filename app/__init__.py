@@ -1,3 +1,7 @@
+# Author: Austin Coules (C23444946)
+# Author: Oscar Canavan (C24425236)
+# Author: Daniel Courage (C23491584)
+
 from flask import Flask, request, session
 from flask_babel import Babel
 
