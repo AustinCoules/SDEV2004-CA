@@ -95,218 +95,216 @@ msgstr ""
 
 #: templates/restaurant.html:18
 msgid "Mcdonalds"
-msgstr ""
+msgstr "McDonald's"
 
 #: templates/restaurant.html:19
 msgid "Burger King"
-msgstr ""
+msgstr "Burger King"
 
 #: templates/restaurant.html:20
 msgid "Dominoes"
-msgstr ""
+msgstr "Domino's"
 
 #: templates/restaurant.html:24 templates/restaurant.html:37
 msgid "Coupon Code"
-msgstr ""
+msgstr "Kod rabatowy"
 
 #: templates/restaurant.html:25 templates/restaurant.html:38
 msgid "Enter Code"
-msgstr ""
+msgstr "Wprowadź kod"
 
 #: templates/restaurant.html:26 templates/restaurant.html:39
 msgid "Enter"
-msgstr ""
+msgstr "Zastosuj"
 
 #: templates/restaurant.html:30
 msgid "Price Filter"
-msgstr ""
+msgstr "Filtr cen"
 
 #: templates/restaurant.html:31
 msgid "Under 5€"
-msgstr ""
+msgstr "Poniżej 5€"
 
 #: templates/restaurant.html:32
 msgid "5€ - 10€"
-msgstr ""
+msgstr "5€ - 10€"
 
 #: templates/restaurant.html:33
 msgid "10€ - 15€"
-msgstr ""
+msgstr "10€ - 15€"
 
 #: templates/restaurant.html:34
 msgid "Over 15€"
-msgstr ""
+msgstr "Powyżej 15€"
 
 #: templates/restaurant.html:47
 msgid "Search for restaurants or dishes..."
-msgstr ""
+msgstr "Szukaj restauracji lub dań..."
 
 #: templates/restaurant.html:48
 msgid "Search"
-msgstr ""
+msgstr "Szukaj"
 
 #: templates/restaurant.html:52
 msgid "Popular in Warsaw Today"
-msgstr ""
+msgstr "Popularne dziś w Warszawie"
 
 #: templates/restaurant.html:69
 msgid "Menu"
-msgstr ""
+msgstr "Menu"
 
 #: templates/restaurant.html:71
-msgid ""
-"Discover a selection of popular dining options tailored to your "
-"preferences."
-msgstr ""
+msgid "Discover a selection of popular dining options tailored to your preferences."
+msgstr "Odkryj wybór popularnych dań dopasowanych do Twoich preferencji."
 
 #: templates/restaurant.html:78
 msgid "Margherita Pizza"
-msgstr ""
+msgstr "Pizza Margherita"
 
 #: templates/restaurant.html:79
 msgid "€8.99"
-msgstr ""
+msgstr "39,56 zł"
 
 #: templates/restaurant.html:90
 msgid "BBQ Chicken Pizza"
-msgstr ""
+msgstr "Pizza z kurczakiem BBQ"
 
 #: templates/restaurant.html:91
 msgid "€10.99"
-msgstr ""
+msgstr "48,36 zł"
 
 #: templates/restaurant.html:96
 msgid "Veggie Supreme"
-msgstr ""
+msgstr "Wegetariańska Supreme"
 
 #: templates/restaurant.html:97
 msgid "€9.49"
-msgstr ""
+msgstr "41,76 zł"
 
 #: templates/restaurant.html:102
 msgid "Hawaiian Pizza"
-msgstr ""
+msgstr "Pizza hawajska"
 
 #: templates/restaurant.html:103
 msgid "€10.49"
-msgstr ""
+msgstr "46,16 zł"
 
 #: templates/restaurant.html:108
 msgid "Meat Lovers Pizza"
-msgstr ""
+msgstr "Pizza dla mięsożerców"
 
 #: templates/restaurant.html:109
 msgid "€11.99"
-msgstr ""
+msgstr "52,76 zł"
 
 #: templates/restaurant.html:115
 msgid "Loaded Fries"
-msgstr ""
+msgstr "Frytki z dodatkami"
 
-#: templates/restaurant.html:116 templates/restaurant.html:122
-#: templates/restaurant.html:130
+#: templates/restaurant.html:116 templates/restaurant.html:122 templates/restaurant.html:130
 msgid "€4.99"
-msgstr ""
+msgstr "21,96 zł"
 
 #: templates/restaurant.html:118
 msgid "Double Deal"
-msgstr ""
+msgstr "Podwójna oferta"
 
 #: templates/restaurant.html:121
 msgid "Garlic Bread"
-msgstr ""
+msgstr "Chleb czosnkowy"
 
 #: templates/restaurant.html:129
 msgid "Cheesy Garlic Bread"
-msgstr ""
+msgstr "Chleb czosnkowy z serem"
 
 #: templates/restaurant.html:132
 msgid "Cheesy Dough Balls"
-msgstr ""
+msgstr "Kulki ciasta z serem"
 
 #: templates/restaurant.html:133
 msgid "€5.99"
-msgstr ""
+msgstr "26,36 zł"
 
 #: templates/restaurant.html:135
 msgid "Chicken Wings"
-msgstr ""
+msgstr "Skrzydełka z kurczaka"
 
 #: templates/restaurant.html:136
 msgid "€7.99"
-msgstr ""
+msgstr "35,16 zł"
 
 #: templates/restaurant.html:143
 msgid "Cheesy Fries"
-msgstr ""
+msgstr "Frytki z serem"
 
 #: templates/restaurant.html:146
 msgid "Dough Balls with Jalapenos"
-msgstr ""
+msgstr "Kulki ciasta z jalapeño"
 
 #: templates/restaurant.html:147 templates/restaurant.html:162
 msgid "€6.59"
-msgstr ""
+msgstr "29,00 zł"
 
 #: templates/restaurant.html:158
 msgid "Cheesy Garlic Bread with Pepperoni"
-msgstr ""
+msgstr "Chleb czosnkowy z serem i pepperoni"
 
 #: templates/restaurant.html:159 templates/restaurant.html:165
 msgid "€5.49"
-msgstr ""
+msgstr "24,16 zł"
 
 #: templates/restaurant.html:161
 msgid "Mexican Dough Balls"
-msgstr ""
+msgstr "Meksykańskie kulki ciasta"
 
 #: templates/restaurant.html:164
 msgid "Chocolate Lava Cake"
-msgstr ""
+msgstr "Czekoladowe ciastko lava"
 
 #: templates/restaurant.html:173
 msgid "Pepsi Lemon Zero"
-msgstr ""
+msgstr "Pepsi Lemon Zero"
 
 #: templates/restaurant.html:174
 msgid "€2.29"
-msgstr ""
+msgstr "10,08 zł"
 
 #: templates/restaurant.html:176
 msgid "Mez Mix"
-msgstr ""
+msgstr "Mezzo Mix"
 
 #: templates/restaurant.html:177
 msgid "€1.29"
-msgstr ""
+msgstr "5,68 zł"
 
 #: templates/restaurant.html:188
 msgid "Strawberry Lemonade"
-msgstr ""
+msgstr "Lemoniada truskawkowa"
 
 #: templates/restaurant.html:189
 msgid "€1.49"
-msgstr ""
+msgstr "6,56 zł"
 
 #: templates/restaurant.html:191
 msgid "Heineken"
-msgstr ""
+msgstr "Heineken"
 
 #: templates/restaurant.html:192
 msgid "€4.39"
-msgstr ""
+msgstr "19,32 zł"
 
 #: templates/restaurant.html:194
 msgid "Sprite"
-msgstr ""
+msgstr "Sprite"
 
 #: templates/restaurant.html:210
 msgid "Recommended deals"
-msgstr ""
+msgstr "Polecane oferty"
 
 #: templates/restaurant.html:227
 msgid "Go to Checkout"
-msgstr ""
+msgstr "Przejdź do kasy"
+
 
 #: templates/includes/de/help.html:3 templates/includes/en/help.html:3
 #: templates/includes/pl/help.html:3
