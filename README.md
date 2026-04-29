@@ -55,6 +55,8 @@ It uses a familiar design to what each culture is used to when accessing a food 
 
 My focus was on the landing page. I created a different design based on the users language; German, Polish or English. The page
 translated into the selected language and shows the restaurants nearby to them with delivery time, price and ETA. 
+Localising the price I needed to make sure to use Polish zloty and also put the '€' at the end of the number for German.
+I made the landing page clear and easy to navigate by adding an easy to spot button to the restaurant page, for all cultures but especially important for Polish users with a high uncertainty avoidance.
 
 ## Running this Project
 ### Dependencies
