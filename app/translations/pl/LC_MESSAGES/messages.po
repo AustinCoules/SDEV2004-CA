@@ -71,7 +71,7 @@ msgstr "1zł"
 
 #: templates/index.html:25
 msgid "View Restaurant"
-msgstr ""
+msgstr "Zobacz restaurację"
 
 #: templates/index.html:30
 msgid "Burger King Baggot St"
@@ -79,11 +79,11 @@ msgstr "Burger King Kraków – Rynek Główny"
 
 #: templates/index.html:42
 msgid "€4–20"
-msgstr "zł"
+msgstr "10-60zł"
 
 #: templates/index.html:65
 msgid "€14–30"
-msgstr "60-70zł"
+msgstr "40-70zł"
 
 #: templates/index.html:72
 msgid "McDonald's O'Connell St"
