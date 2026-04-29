@@ -70,7 +70,7 @@ msgstr "€0.15"
 
 #: templates/index.html:25
 msgid "View Restaurant"
-msgstr ""
+msgstr "Restaurant ansehen"
 
 #: templates/index.html:30
 msgid "Burger King Baggot St"
@@ -78,11 +78,11 @@ msgstr ""
 
 #: templates/index.html:42
 msgid "€4–20"
-msgstr ""
+msgstr "4-20€"
 
 #: templates/index.html:65
 msgid "€14–30"
-msgstr ""
+msgstr "14-30€"
 
 #: templates/index.html:72
 msgid "McDonald's O'Connell St"
@@ -90,7 +90,7 @@ msgstr ""
 
 #: templates/index.html:83
 msgid "€6–18"
-msgstr ""
+msgstr "6-18€"
 
 #: templates/restaurant.html:25
 msgid "Mcdonalds"
@@ -439,13 +439,13 @@ msgstr "McDonald’s Berlin – Friedrichstraße"
 
 
 msgid "€4–20"
-msgstr "€4–20"
+msgstr "4–20€"
 
 msgid "€14–30"
-msgstr "€14–30"
+msgstr "14–30€"
 
 msgid "€6–18"
-msgstr "€6–18"
+msgstr "6–18€"
 
 
 msgid "Done"
