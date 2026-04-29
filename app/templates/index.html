@@ -25,7 +25,7 @@ selected language. -->
 {% block content %}
 <section class="landing-page">
   <div class="panel">
-
+<!-- added the button to take users to restaurant page -->
         <form action="{{ url_for('restaurant') }}" method="get">
           <button type="submit" class="btn btn-primary">
             {{ _('View Restaurant')}}
@@ -72,6 +72,7 @@ selected language. -->
           <ul class="list-group list-group-horizontal justify-content-between mt-2">
             <li class="list-group-item">⭐ 2.4</li>
             <li class="list-group-item">🛵 15–25 min</li>
+            <!-- used jinja wrappers so I can translate currency for each locale -->
             <li class="list-group-item">{{ _('€14–30')}}</li>
           </ul>
         </li>
