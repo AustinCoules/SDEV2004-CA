@@ -74,7 +74,7 @@ msgstr "Restaurant ansehen"
 
 #: templates/index.html:30
 msgid "Burger King Baggot St"
-msgstr ""
+msgstr "Schzitzel King Berlin – Alexanderplatz"
 
 #: templates/index.html:42
 msgid "€4–20"
@@ -86,7 +86,7 @@ msgstr "14-30€"
 
 #: templates/index.html:72
 msgid "McDonald's O'Connell St"
-msgstr ""
+msgstr "McDonald’s Berlin – Friedrichstraße"
 
 #: templates/index.html:83
 msgid "€6–18"
@@ -426,26 +426,7 @@ msgstr ""
 #: templates/includes/pl/progress.html:8
 #, fuzzy
 
-# Restaurant names
-msgid "Burger King Baggot St"
-msgstr "Burger King Berlin – Alexanderplatz"
 
-msgid "Domino's Rathmines"
-msgstr "Domino’s Berlin – Kreuzberg"
-
-msgid "McDonald's O'Connell St"
-msgstr "McDonald’s Berlin – Friedrichstraße"
-
-
-
-msgid "€4–20"
-msgstr "4–20€"
-
-msgid "€14–30"
-msgstr "14–30€"
-
-msgid "€6–18"
-msgstr "6–18€"
 
 
 msgid "Done"
